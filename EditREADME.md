@@ -30,7 +30,7 @@
 | <h2 id="ai资讯">AI资讯</h2> |  |   |  |
 | AI001 | OpenAI Blog | OpenAI 官方博客 | {{latest_content}}  |  [订阅地址](https://openai.com/blog/rss.xml) |
 | AI002 | OpenAI News | OpenAI 官方新闻 | {{latest_content}}  |  [订阅地址](https://openai.com/news/rss.xml) |
-| AI003 | Anthropic Blog | Anthropic 官方博客 | {{latest_content}}  |  [订阅地址](https://rsshub.app/anthropic/engineering) |
+| AI003 | Anthropic Blog | Anthropic 官方博客 | {{latest_content}}  |  [订阅地址](https://rsshub.rss3.workers.dev/anthropic/engineering) |
 | AI004 | Google DeepMind | Google DeepMind 官方博客 | {{latest_content}}  |  [订阅地址](https://deepmind.google/blog/rss.xml) |
 | AI005 | Google AI Blog | Google AI 资讯 | {{latest_content}}  |  [订阅地址](https://blog.google/technology/ai/rss/) |
 | AI006 | Microsoft Research | 微软研究院官方博客 | {{latest_content}}  |  [订阅地址](https://www.microsoft.com/en-us/research/feed/) |

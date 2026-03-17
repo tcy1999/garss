@@ -10,8 +10,40 @@ import markdown
 import json
 import shutil
 from urllib.parse import urlparse
+from email.utils import parsedate_to_datetime
 from multiprocessing import Pool,  Manager
 
+
+
+def extract_entry_date(entry, feed=None):
+    for key in ("published_parsed", "updated_parsed"):
+        parsed_value = entry.get(key)
+        if parsed_value:
+            return time.strftime("%Y-%m-%d", parsed_value)
+
+    for key in ("published", "updated", "pubDate"):
+        raw_value = entry.get(key)
+        if raw_value:
+            try:
+                return parsedate_to_datetime(raw_value).strftime("%Y-%m-%d")
+            except Exception:
+                pass
+
+    if feed:
+        feed_meta = feed.get("feed", {})
+        for key in ("published_parsed", "updated_parsed"):
+            parsed_value = feed_meta.get(key)
+            if parsed_value:
+                return time.strftime("%Y-%m-%d", parsed_value)
+        for key in ("published", "updated", "pubDate"):
+            raw_value = feed_meta.get(key)
+            if raw_value:
+                try:
+                    return parsedate_to_datetime(raw_value).strftime("%Y-%m-%d")
+                except Exception:
+                    pass
+
+    return datetime.today().strftime("%Y-%m-%d")
 
 
 def get_rss_info(feed_url, index, rss_info_list):
@@ -27,15 +59,19 @@ def get_rss_info(feed_url, index, rss_info_list):
                     "Content-Encoding": "gzip"
                 }
                 # 三次分别设置8, 16, 24秒钟超时
-                feed_url_content = requests.get(feed_url,  timeout= (i+1)*8 ,headers = headers).content
+                feed_response = requests.get(feed_url,  timeout= (i+1)*8 ,headers = headers)
+                feed_response.raise_for_status()
+                feed_url_content = feed_response.content
                 feed = feedparser.parse(feed_url_content)
-                feed_entries = feed["entries"]
+                feed_entries = feed.get("entries", [])
                 feed_entries_length = len(feed_entries)
                 print("==feed_url=>>", feed_url, "==len=>>", feed_entries_length)
-                for entrie in feed_entries[0: feed_entries_length-1]:
-                    title = entrie["title"]
-                    link = entrie["link"]
-                    date = time.strftime("%Y-%m-%d", entrie["published_parsed"])
+                for entrie in feed_entries:
+                    title = entrie.get("title", "")
+                    link = entrie.get("link", "")
+                    if not title or not link:
+                        continue
+                    date = extract_entry_date(entrie, feed)
 
                     title = title.replace("\n", "")
                     title = title.replace("\r", "")
