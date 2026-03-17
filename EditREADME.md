@@ -30,7 +30,7 @@
 | <h2 id="ai资讯">AI资讯</h2> |  |   |  |
 | AI001 | OpenAI Blog | OpenAI 官方博客 | {{latest_content}}  |  [订阅地址](https://openai.com/blog/rss.xml) |
 | AI002 | OpenAI News | OpenAI 官方新闻 | {{latest_content}}  |  [订阅地址](https://openai.com/news/rss.xml) |
-| AI003 | Anthropic News | Anthropic 官方新闻 | {{latest_content}}  |  [订阅地址](https://www.anthropic.com/news/rss.xml) |
+| AI003 | Anthropic Blog | Anthropic 官方博客 | {{latest_content}}  |  [订阅地址](https://rsshub.app/anthropic/engineering) |
 | AI004 | Google DeepMind | Google DeepMind 官方博客 | {{latest_content}}  |  [订阅地址](https://deepmind.google/blog/rss.xml) |
 | AI005 | Google AI Blog | Google AI 资讯 | {{latest_content}}  |  [订阅地址](https://blog.google/technology/ai/rss/) |
 | AI006 | Microsoft Research | 微软研究院官方博客 | {{latest_content}}  |  [订阅地址](https://www.microsoft.com/en-us/research/feed/) |
@@ -40,58 +40,44 @@
 | AI010 | Engineering at Meta | Meta 工程博客 | {{latest_content}}  |  [订阅地址](https://engineering.fb.com/feed/) |
 | AI011 | NVIDIA Blog | NVIDIA 官方博客 | {{latest_content}}  |  [订阅地址](https://blogs.nvidia.com/feed/) |
 | AI012 | AWS ML Blog | AWS Machine Learning 博客 | {{latest_content}}  |  [订阅地址](https://aws.amazon.com/blogs/machine-learning/feed/) |
-| AI013 | 机器之心 | 机器学习与 AI 行业资讯 | {{latest_content}}  |  [订阅地址](https://www.jiqizhixin.com/rss) |
-| AI014 | 量子位 | AI 产业与产品资讯 | {{latest_content}}  |  [订阅地址](https://www.qbitai.com/feed) |
-| AI015 | InfoQ | 中文技术与 AI 资讯 | {{latest_content}}  |  [订阅地址](https://www.infoq.cn/feed) |
-| AI016 | MarkTechPost | AI 研究与工程资讯 | {{latest_content}}  |  [订阅地址](https://marktechpost.com/feed) |
-| AI017 | TechCrunch AI | AI 创业与投融资动态 | {{latest_content}}  |  [订阅地址](https://techcrunch.com/category/artificial-intelligence/feed/) |
-| AI018 | VentureBeat AI | AI 行业新闻 | {{latest_content}}  |  [订阅地址](https://venturebeat.com/category/ai/feed/) |
-| AI019 | AI News | 国际 AI 新闻 | {{latest_content}}  |  [订阅地址](https://www.artificialintelligence-news.com/feed/) |
-| AI020 | 我爱自然语言处理 | NLP 与大模型实践内容 | {{latest_content}}  |  [订阅地址](https://www.52nlp.cn/feed) |
+| AI013 | 量子位 | AI 产业与产品资讯 | {{latest_content}}  |  [订阅地址](https://www.qbitai.com/feed) |
+| AI014 | InfoQ | 中文技术与 AI 资讯 | {{latest_content}}  |  [订阅地址](https://www.infoq.cn/feed) |
+| AI015 | MarkTechPost | AI 研究与工程资讯 | {{latest_content}}  |  [订阅地址](https://marktechpost.com/feed) |
+| AI016 | TechCrunch AI | AI 创业与投融资动态 | {{latest_content}}  |  [订阅地址](https://techcrunch.com/category/artificial-intelligence/feed/) |
+| AI017 | VentureBeat AI | AI 行业新闻 | {{latest_content}}  |  [订阅地址](https://venturebeat.com/category/ai/feed/) |
+| AI018 | AI News | 国际 AI 新闻 | {{latest_content}}  |  [订阅地址](https://www.artificialintelligence-news.com/feed/) |
+| AI019 | PaperWeekly | PaperWeekly 论文周报 | {{latest_content}}  |  [订阅地址](https://raw.githubusercontent.com/osnsyc/Wechat-Scholar/main/channels/gh_5138cebd4585.xml) |
 | <h2 id="前端开发">前端开发</h2> |  |   |  |
 | FE001 | Smashing Magazine | 前端与设计工程深度文章 | {{latest_content}}  |  [订阅地址](https://www.smashingmagazine.com/feed/) |
 | FE002 | CSS-Tricks | CSS 与前端工程实践 | {{latest_content}}  |  [订阅地址](https://css-tricks.com/feed/) |
 | FE003 | web.dev | Google Web 平台与性能实践 | {{latest_content}}  |  [订阅地址](https://web.dev/feed.xml) |
 | FE004 | MDN Blog | Web 标准与前端知识库博客 | {{latest_content}}  |  [订阅地址](https://developer.mozilla.org/en-US/blog/rss.xml) |
 | FE005 | Chrome Developers Blog | Chrome 团队前端实践 | {{latest_content}}  |  [订阅地址](https://developer.chrome.com/blog/feed.xml) |
-| FE006 | 奇舞周刊 | 360 前端团队周刊 | {{latest_content}}  |  [订阅地址](https://weekly.75.team/rss) |
-| FE007 | 淘系前端团队 | 淘宝前端团队博客 | {{latest_content}}  |  [订阅地址](https://fed.taobao.org/atom.xml) |
-| FE008 | 字节跳动团队技术博客 | 字节跳动技术博客 | {{latest_content}}  |  [订阅地址](https://blog.csdn.net/ByteDanceTech/rss/list) |
-| FE009 | 美团技术团队博客 | 美团工程实践 | {{latest_content}}  |  [订阅地址](https://tech.meituan.com/feed/) |
-| FE010 | 云音乐大前端专栏 | 网易云音乐前端专栏 | {{latest_content}}  |  [订阅地址](https://musicfe.dev/rss) |
-| FE011 | 百度 FEX 团队 | 百度前端技术博客 | {{latest_content}}  |  [订阅地址](https://fex.baidu.com/feed.xml) |
-| FE012 | JDC | 京东设计中心前端内容 | {{latest_content}}  |  [订阅地址](https://jdc.jd.com/feed) |
-| FE013 | 凹凸实验室 | 凹凸实验室前端博客 | {{latest_content}}  |  [订阅地址](https://aotu.io/atom.xml) |
-| FE014 | 张鑫旭的博客 | CSS 与前端实践 | {{latest_content}}  |  [订阅地址](https://www.zhangxinxu.com/wordpress/feed/) |
-| FE015 | sunnyxx | iOS/前端与工程文章 | {{latest_content}}  |  [订阅地址](http://blog.sunnyxx.com/atom.xml) |
-| FE016 | 阮一峰的网络日志 | Web 技术与工程视角 | {{latest_content}}  |  [订阅地址](http://www.ruanyifeng.com/blog/atom.xml) |
+| FE006 | 美团技术团队博客 | 美团工程实践 | {{latest_content}}  |  [订阅地址](https://tech.meituan.com/feed/) |
+| FE007 | 张鑫旭的博客 | CSS 与前端实践 | {{latest_content}}  |  [订阅地址](https://www.zhangxinxu.com/wordpress/feed/) |
+| FE008 | sunnyxx | iOS/前端与工程文章 | {{latest_content}}  |  [订阅地址](http://blog.sunnyxx.com/atom.xml) |
+| FE009 | 阮一峰的网络日志 | Web 技术与工程视角 | {{latest_content}}  |  [订阅地址](http://www.ruanyifeng.com/blog/atom.xml) |
 | <h2 id="泛科技">泛科技</h2> |  |   |  |
 | T001 | Hacker News | 高质量技术社区新闻流 | {{latest_content}}  |  [订阅地址](https://news.ycombinator.com/rss) |
 | T002 | 奇客Solidot | 科技与开源资讯 | {{latest_content}}  |  [订阅地址](https://www.solidot.org/index.rss) |
-| T003 | MIT 科技评论 | 科技趋势与产业观察 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/mittrchina/hot) |
-| T004 | The Verge | 消费科技与产业新闻 | {{latest_content}}  |  [订阅地址](https://www.theverge.com/rss/index.xml) |
-| T005 | Github Trending | Github 每周 Trending（全语言） | {{latest_content}}  |  [订阅地址](https://mshibanami.github.io/GitHubTrendingRSS/weekly/all.xml) |
-| T006 | TechSpot | 硬件与科技新闻 | {{latest_content}}  |  [订阅地址](https://www.techspot.com/backend.xml) |
-| T007 | Bloomberg Tech | 全球科技商业新闻 | {{latest_content}}  |  [订阅地址](https://feeds.bloomberg.com/technology/news.rss) |
-| T008 | HelloGitHub 月刊 | 开源项目与技术月刊 | {{latest_content}}  |  [订阅地址](https://hellogithub.com/rss) |
-| <h2 id="产品设计">产品与增长</h2> |  |   |  |
-| P001 | 人人都是产品经理——iamsujie | 产品经理与方法论内容 | {{latest_content}}  |  [订阅地址](http://iamsujie.com/feed/) |
-| P002 | 產品經理 x 成長駭客 - Mr. PM下午先生 | 产品增长与 PM 实战经验 | {{latest_content}}  |  [订阅地址](http://mrpm.cc/?feed=rss2) |
+| T003 | The Verge | 消费科技与产业新闻 | {{latest_content}}  |  [订阅地址](https://www.theverge.com/rss/index.xml) |
+| T004 | Github Trending | Github 每周 Trending（全语言） | {{latest_content}}  |  [订阅地址](https://mshibanami.github.io/GitHubTrendingRSS/weekly/all.xml) |
+| T005 | TechSpot | 硬件与科技新闻 | {{latest_content}}  |  [订阅地址](https://www.techspot.com/backend.xml) |
+| T006 | Bloomberg Tech | 全球科技商业新闻 | {{latest_content}}  |  [订阅地址](https://feeds.bloomberg.com/technology/news.rss) |
+| T007 | HelloGitHub 月刊 | 开源项目与技术月刊 | {{latest_content}}  |  [订阅地址](https://hellogithub.com/rss) |
 | <h2 id="理财投资">理财投资</h2> |  |   |  |
 | F001 | 雪球 | A 股、港股、美股投资社区 | {{latest_content}}  |  [订阅地址](https://xueqiu.com/hots/topic/rss) |
-| F002 | 华尔街见闻 | 宏观、市场与交易资讯 | {{latest_content}}  |  [订阅地址](https://wallstreetcn.com/rss) |
+| F002 | 华尔街见闻 | 宏观、市场与交易资讯 | {{latest_content}}  |  [订阅地址](https://dedicated.wallstreetcn.com/rss.xml) |
 | <h2 id="新闻热点">新闻热点</h2> |  |   |  |
 | N001 | 虎嗅 | 商业与科技新闻 | {{latest_content}}  |  [订阅地址](https://www.huxiu.com/rss/0.xml) |
 | N002 | 36kr | 创投与公司动态 | {{latest_content}}  |  [订阅地址](https://www.36kr.com/feed) |
 | N003 | BBC 中文 | 国际综合新闻 | {{latest_content}}  |  [订阅地址](https://feeds.bbci.co.uk/zhongwen/simp/rss.xml) |
-| N004 | Reuters World | 路透全球新闻 | {{latest_content}}  |  [订阅地址](https://feeds.reuters.com/Reuters/worldNews) |
 | <h2 id="数码产品">数码产品</h2> |  |   |  |
 | D001 | 少数派 | 数码产品与效率工具 | {{latest_content}}  |  [订阅地址](https://sspai.com/feed) |
 | D002 | 数字尾巴 | 数码产品评测与体验 | {{latest_content}}  |  [订阅地址](https://www.dgtle.com/rss/dgtle.xml) |
-| D003 | 极客公园 | 消费科技与新品动态 | {{latest_content}}  |  [订阅地址](https://www.geekpark.net/rss) |
-| D004 | 爱范儿 | 科技产品与互联网趋势 | {{latest_content}}  |  [订阅地址](https://www.ifanr.com/feed) |
-| D005 | IT之家 | 国内外科技新品与行业快讯 | {{latest_content}}  |  [订阅地址](https://www.ithome.com/rss) |
-| D006 | 小众软件 | 工具类软件与实用应用 | {{latest_content}}  |  [订阅地址](https://www.appinn.com/feed/) |
+| D003 | 爱范儿 | 科技产品与互联网趋势 | {{latest_content}}  |  [订阅地址](https://www.ifanr.com/feed) |
+| D004 | IT之家 | 国内外科技新品与行业快讯 | {{latest_content}}  |  [订阅地址](https://www.ithome.com/rss) |
+| D005 | 小众软件 | 工具类软件与实用应用 | {{latest_content}}  |  [订阅地址](https://www.appinn.com/feed/) |
 
 ## 批量导入所有RSS订阅
 
