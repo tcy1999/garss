@@ -217,12 +217,13 @@ def cp_media_to_docs():
     shutil.copytree(os.path.join(os.getcwd(),"_media"), os.path.join(os.getcwd(), "docs","_media"))
 
 def get_email_list():
-    email_list = []
-    with open(os.path.join(os.getcwd(),"tasks.json"),'r') as load_f:
-        load_dic = json.load(load_f)
-        for task in load_dic["tasks"]:
-            email_list.append(task["email"])
-    return email_list
+    # 仅支持 CI/CD 环境变量（例如 GitHub Actions secrets: EMAIL_LISTS）
+    # 支持格式: a@x.com,b@y.com 或按行分隔
+    env_email_lists = os.environ.get("EMAIL_LISTS", "").strip()
+    if env_email_lists:
+        parts = re.split(r"[\n,;]+", env_email_lists)
+        return [p.strip() for p in parts if p.strip()]
+    return []
 
 # 创建opml订阅文件
 

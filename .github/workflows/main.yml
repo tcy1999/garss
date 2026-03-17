@@ -29,6 +29,7 @@ jobs:
             USER: ${{ secrets.USER }}
             PASSWORD: ${{ secrets.PASSWORD }}
             HOST: ${{ secrets.HOST }}
+            EMAIL_LISTS: ${{ secrets.EMAIL_LISTS }}
         run: pipenv run build
       - name: Commit and push if changed   # 更新README.md
         run: |
