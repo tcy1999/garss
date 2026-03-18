@@ -3,6 +3,7 @@ import time
 import os
 import re
 import pytz
+import html
 from datetime import datetime
 import yagmail
 import requests
@@ -46,6 +47,92 @@ def extract_entry_date(entry, feed=None):
     return datetime.today().strftime("%Y-%m-%d")
 
 
+def strip_html(raw_text):
+    text = re.sub(r"<[^>]+>", " ", raw_text or "")
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def extract_entry_description(entry):
+    for key in ("summary", "description", "subtitle"):
+        value = entry.get(key, "")
+        if value:
+            return strip_html(value)
+
+    content_list = entry.get("content", [])
+    if isinstance(content_list, list) and len(content_list) > 0:
+        first_content = content_list[0]
+        if isinstance(first_content, dict):
+            value = first_content.get("value", "")
+            if value:
+                return strip_html(value)
+
+    return ""
+
+
+def normalize_title_for_dedupe(title):
+    normalized = (title or "").strip().lower()
+    normalized = re.sub(r"\s+", " ", normalized)
+    return normalized
+
+
+def make_mail_title(title, description, min_title_len=20, max_desc_len=80):
+    clean_title = re.sub(r"\s+", " ", (title or "").strip())
+    if len(clean_title) >= min_title_len:
+        return clean_title
+
+    clean_desc = re.sub(r"\s+", " ", (description or "").strip())
+    if not clean_desc:
+        return clean_title
+
+    if len(clean_desc) > max_desc_len:
+        clean_desc = clean_desc[:max_desc_len].rstrip() + "..."
+    return clean_title + " - " + clean_desc
+
+
+def parse_feed_rows(edit_readme_md):
+    feed_rows = []
+    current_category = "未分类"
+    for line in edit_readme_md.splitlines():
+        if "<h2 id=" in line and "</h2>" in line:
+            category_match = re.search(r'<h2 id="[^"]*">(.*?)</h2>', line)
+            if category_match:
+                current_category = category_match.group(1).strip()
+
+        if "{{latest_content}}" not in line or "[订阅地址](" not in line:
+            continue
+
+        row_match = re.match(
+            r"\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*\{\{latest_content\}\}\s*\|\s*\[订阅地址\]\((.*?)\)\s*\|",
+            line.strip()
+        )
+
+        if row_match:
+            feed_rows.append({
+                "raw": line,
+                "code": row_match.group(1).strip(),
+                "name": row_match.group(2).strip(),
+                "description": row_match.group(3).strip(),
+                "link": row_match.group(4).strip(),
+                "category": current_category
+            })
+            continue
+
+        link_match = re.search(r"\[订阅地址\]\((.*?)\)", line)
+        if not link_match:
+            continue
+        feed_rows.append({
+            "raw": line,
+            "code": "",
+            "name": "",
+            "description": "",
+            "link": link_match.group(1).strip(),
+            "category": current_category
+        })
+
+    return feed_rows
+
+
 def get_rss_info(feed_url, index, rss_info_list):
     result = {"result": []}
     request_success = False
@@ -72,6 +159,7 @@ def get_rss_info(feed_url, index, rss_info_list):
                     if not title or not link:
                         continue
                     date = extract_entry_date(entrie, feed)
+                    description = extract_entry_description(entrie)
 
                     title = title.replace("\n", "")
                     title = title.replace("\r", "")
@@ -79,7 +167,8 @@ def get_rss_info(feed_url, index, rss_info_list):
                     result["result"].append({
                         "title": title,
                         "link": link,
-                        "date": date
+                        "date": date,
+                        "description": description
                     })
                 request_success = True
             except Exception as e:
@@ -134,7 +223,7 @@ def send_mail(email, title, contents):
 
 def replace_readme():
     new_edit_readme_md = ["", ""]
-    current_date_news_index = [""]
+    current_date_news_by_category = {}
 
 
     
@@ -147,16 +236,16 @@ def replace_readme():
 
 
         new_edit_readme_md[0] = edit_readme_md
-        before_info_list =  re.findall(r'\{\{latest_content\}\}.*\[订阅地址\]\(.*\)' ,edit_readme_md);
+        feed_rows = parse_feed_rows(edit_readme_md)
         # 填充统计RSS数量
-        new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{rss_num}}", str(len(before_info_list)))
+        new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{rss_num}}", str(len(feed_rows)))
         # 填充统计时间
         ga_rss_datetime = datetime.fromtimestamp(int(time.time()),pytz.timezone('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')
         new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{ga_rss_datetime}}", str(ga_rss_datetime))
 
         # 使用进程池进行数据获取，获得rss_info_list
-        before_info_list_len = len(before_info_list)
-        rss_info_list = Manager().list(range(before_info_list_len))
+        feed_rows_len = len(feed_rows)
+        rss_info_list = Manager().list(range(feed_rows_len))
         print('初始化完毕==》', rss_info_list)
 
         
@@ -164,9 +253,9 @@ def replace_readme():
         # 创建一个最多开启8进程的进程池
         po = Pool(8)
 
-        for index, before_info in enumerate(before_info_list):
+        for index, feed_row in enumerate(feed_rows):
             # 获取link
-            link = re.findall(r'\[订阅地址\]\((.*)\)', before_info)[0]
+            link = feed_row["link"]
             po.apply_async(get_rss_info,(link, index, rss_info_list))
 
 
@@ -178,9 +267,13 @@ def replace_readme():
         print("----结束----", rss_info_list)
 
 
-        for index, before_info in enumerate(before_info_list):
+        today_str = datetime.today().strftime("%Y-%m-%d")
+        seen_today_titles = set()
+
+        for index, feed_row in enumerate(feed_rows):
             # 获取link
-            link = re.findall(r'\[订阅地址\]\((.*)\)', before_info)[0]
+            link = feed_row["link"]
+            category_name = feed_row["category"]
             # 生成超链接
             rss_info = rss_info_list[index]
             latest_content = ""
@@ -191,12 +284,21 @@ def replace_readme():
             # 加入到索引
             try:
                 for rss_info_atom in rss_info:
-                    if (rss_info_atom["date"] == datetime.today().strftime("%Y-%m-%d")):
+                    if (rss_info_atom["date"] == today_str):
+                        title_key = normalize_title_for_dedupe(rss_info_atom.get("title", ""))
+                        if title_key in seen_today_titles:
+                            continue
+                        seen_today_titles.add(title_key)
                         new_num = new_num + 1
-                        if (new_num % 2) == 0:
-                            current_date_news_index[0] = current_date_news_index[0] + "<div style='line-height:3;' ><a href='" + rss_info_atom["link"] + "' " + 'style="line-height:2;text-decoration:none;display:block;color:#584D49;">' + "🌈 ‣ " + rss_info_atom["title"] + " | 第" + str(new_num) +"篇" + "</a></div>"
-                        else:
-                            current_date_news_index[0] = current_date_news_index[0] + "<div style='line-height:3;background-color:#FAF6EA;' ><a href='" + rss_info_atom["link"] + "' " + 'style="line-height:2;text-decoration:none;display:block;color:#584D49;">' + "🌈 ‣ " + rss_info_atom["title"] + " | 第" + str(new_num) +"篇" + "</a></div>"
+                        category_list = current_date_news_by_category.setdefault(category_name, [])
+                        category_list.append({
+                            "title": make_mail_title(
+                                rss_info_atom.get("title", ""),
+                                rss_info_atom.get("description", "")
+                            ),
+                            "link": rss_info_atom["link"],
+                            "index": new_num
+                        })
 
             except:
                 print("An exception occurred")
@@ -208,23 +310,39 @@ def replace_readme():
                 rss_info[0]["title"] = rss_info[0]["title"].replace("[", "\[")
                 rss_info[0]["title"] = rss_info[0]["title"].replace("]", "\]")
 
-                latest_content = "[" + "‣ " + rss_info[0]["title"] + ( " 🌈 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[0]["link"] +")"  
+                latest_content = "[" + "‣ " + rss_info[0]["title"] + ( " 🆕 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[0]["link"] +")"  
 
             if(len(rss_info) > 1):
                 rss_info[1]["title"] = rss_info[1]["title"].replace("|", "\|")
                 rss_info[1]["title"] = rss_info[1]["title"].replace("[", "\[")
                 rss_info[1]["title"] = rss_info[1]["title"].replace("]", "\]")
 
-                latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"] + ( " 🌈 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[1]["link"] +")"
+                latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"] + ( " 🆕 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[1]["link"] +")"
 
             # 生成after_info
-            after_info = before_info.replace("{{latest_content}}", latest_content)
+            after_info = feed_row["raw"].replace("{{latest_content}}", latest_content)
             print("====latest_content==>", latest_content)
             # 替换edit_readme_md中的内容
-            new_edit_readme_md[0] = new_edit_readme_md[0].replace(before_info, after_info)
+            new_edit_readme_md[0] = new_edit_readme_md[0].replace(feed_row["raw"], after_info)
     
+    current_date_news_index = []
+    for category_name, category_items in current_date_news_by_category.items():
+        if len(category_items) == 0:
+            continue
+        current_date_news_index.append(
+            "<h3 style='margin:18px 0 8px;color:#584D49;'>" + html.escape(category_name) + "</h3>"
+        )
+        for item_index, item in enumerate(category_items):
+            line_style = "line-height:3;background-color:#F7FAFF;" if (item_index % 2) == 0 else "line-height:3;"
+            current_date_news_index.append(
+                "<div style='" + line_style + "' ><a href='" + item["link"] + "' " +
+                'style="line-height:2;text-decoration:none;display:block;color:#584D49;">' +
+                "🆕 ‣ " + html.escape(item["title"]) + " | 第" + str(item["index"]) + "篇" +
+                "</a></div>"
+            )
+
     # 替换EditREADME中的索引
-    new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{news}}", current_date_news_index[0])
+    new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{news}}", "".join(current_date_news_index))
     # 替换EditREADME中的新文章数量索引
     new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{new_num}}", str(new_num))
     # 添加CDN

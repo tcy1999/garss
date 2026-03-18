@@ -9,15 +9,12 @@
 这个名为**嘎!RSS**的项目会利用免费的Github Actions服务, 提供一个内容全面的信息流, 让现代人的知识体系更广泛, 减弱信息茧房对现代人的影响, 让**非茧房信息流**造福人类~
 [《嘎!RSS》永久开源页面: https://github.com/zhaoolee/garss](https://github.com/zhaoolee/garss)
 
-## 推荐使用什么软件订阅RSS？
-我推荐一款免费的浏览器扩展程序Feedbro ，使用教程[Chrome插件英雄榜第96期《Feedbro》在Chrome中订阅RSS信息流](https://www.v2fy.com/p/096-feedbro-2021-02-27/)
-
 ## 主要功能
 1. 收集RSS, 打造无广告内容优质的 **头版头条** 超赞新闻页
-2. 利用Github Actions, 搜集全部RSS的头版头条新闻标题和超链接, 并自动更新到首页,当天最新发布的文章会出现🌈 标志
+2. 利用Github Actions, 搜集全部RSS的头版头条新闻标题和超链接, 并自动更新到首页,当天最新发布的文章会出现🆕 标志
 
 邮件内容区开始>
-<h2>新蒸熟{{new_num}}个小蛋糕🍰(文章) 生产时间 {{ga_rss_datetime}} 保质期24小时</h2>
+<h2>新获取{{new_num}}篇文章 生产时间 {{ga_rss_datetime}} 保质期24小时</h2>
 
 {{news}}
 
@@ -54,9 +51,8 @@
 | FE004 | MDN Blog | Web 标准与前端知识库博客 | {{latest_content}}  |  [订阅地址](https://developer.mozilla.org/en-US/blog/rss.xml) |
 | FE005 | Chrome Developers Blog | Chrome 团队前端实践 | {{latest_content}}  |  [订阅地址](https://developer.chrome.com/blog/feed.xml) |
 | FE006 | 美团技术团队博客 | 美团工程实践 | {{latest_content}}  |  [订阅地址](https://tech.meituan.com/feed/) |
-| FE007 | 张鑫旭的博客 | CSS 与前端实践 | {{latest_content}}  |  [订阅地址](https://www.zhangxinxu.com/wordpress/feed/) |
-| FE008 | sunnyxx | iOS/前端与工程文章 | {{latest_content}}  |  [订阅地址](http://blog.sunnyxx.com/atom.xml) |
-| FE009 | 阮一峰的网络日志 | Web 技术与工程视角 | {{latest_content}}  |  [订阅地址](http://www.ruanyifeng.com/blog/atom.xml) |
+| FE007 | sunnyxx | iOS/前端与工程文章 | {{latest_content}}  |  [订阅地址](http://blog.sunnyxx.com/atom.xml) |
+| FE008 | 阮一峰的网络日志 | Web 技术与工程视角 | {{latest_content}}  |  [订阅地址](http://www.ruanyifeng.com/blog/atom.xml) |
 | <h2 id="泛科技">泛科技</h2> |  |   |  |
 | T001 | Hacker News | 高质量技术社区新闻流 | {{latest_content}}  |  [订阅地址](https://news.ycombinator.com/rss) |
 | T002 | 奇客Solidot | 科技与开源资讯 | {{latest_content}}  |  [订阅地址](https://www.solidot.org/index.rss) |
