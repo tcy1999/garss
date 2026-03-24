@@ -360,10 +360,22 @@ def replace_readme():
     with open(os.path.join(os.getcwd(),"README.md"),'w') as load_f:
         load_f.write(new_edit_readme_md[0])
 
+    articles_by_category = []
+    for category_name, category_items in current_date_news_by_category.items():
+        if not category_items:
+            continue
+        articles_by_category.append({
+            "category": category_name,
+            "articles": [
+                {"title": item["title"], "link": item["link"]}
+                for item in category_items
+            ]
+        })
+
     with open(os.path.join(os.getcwd(), "result.json"), "w", encoding="utf-8") as load_f:
         json.dump({
             "date": today_str,
-            "articles": current_date_articles
+            "categories": articles_by_category
         }, load_f, ensure_ascii=False, indent=4)
     
 
