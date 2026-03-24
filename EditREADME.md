@@ -45,14 +45,17 @@
 | AI018 | AI News | 国际 AI 新闻 | {{latest_content}}  |  [订阅地址](https://www.artificialintelligence-news.com/feed/) |
 | AI019 | PaperWeekly | PaperWeekly 论文周报 | {{latest_content}}  |  [订阅地址](https://raw.githubusercontent.com/osnsyc/Wechat-Scholar/main/channels/gh_5138cebd4585.xml) |
 | <h2 id="前端开发">前端开发</h2> |  |   |  |
-| FE001 | Smashing Magazine | 前端与设计工程深度文章 | {{latest_content}}  |  [订阅地址](https://www.smashingmagazine.com/feed/) |
-| FE002 | CSS-Tricks | CSS 与前端工程实践 | {{latest_content}}  |  [订阅地址](https://css-tricks.com/feed/) |
-| FE003 | web.dev | Google Web 平台与性能实践 | {{latest_content}}  |  [订阅地址](https://web.dev/feed.xml) |
-| FE004 | MDN Blog | Web 标准与前端知识库博客 | {{latest_content}}  |  [订阅地址](https://developer.mozilla.org/en-US/blog/rss.xml) |
-| FE005 | Chrome Developers Blog | Chrome 团队前端实践 | {{latest_content}}  |  [订阅地址](https://developer.chrome.com/blog/feed.xml) |
-| FE006 | 美团技术团队博客 | 美团工程实践 | {{latest_content}}  |  [订阅地址](https://tech.meituan.com/feed/) |
-| FE007 | sunnyxx | iOS/前端与工程文章 | {{latest_content}}  |  [订阅地址](http://blog.sunnyxx.com/atom.xml) |
-| FE008 | 阮一峰的网络日志 | Web 技术与工程视角 | {{latest_content}}  |  [订阅地址](http://www.ruanyifeng.com/blog/atom.xml) |
+| FE001 | React | React 官方博客 | {{latest_content}}  |  [订阅地址](https://react.dev/rss.xml) |
+| FE002 | React Native | React Native 官方博客 | {{latest_content}}  |  [订阅地址](https://reactnative.dev/blog/atom.xml) |
+| FE003 | Expo | Expo 官方博客 | {{latest_content}}  |  [订阅地址](https://blog.expo.dev/feed) |
+| FE004 | CSS-Tricks | CSS 与前端工程实践 | {{latest_content}}  |  [订阅地址](https://css-tricks.com/feed/) |
+| FE005 | web.dev | Google Web 平台与性能实践 | {{latest_content}}  |  [订阅地址](https://web.dev/feed.xml) |
+| FE006 | MDN Blog | Web 标准与前端知识库博客 | {{latest_content}}  |  [订阅地址](https://developer.mozilla.org/en-US/blog/rss.xml) |
+| FE007 | Chrome Developers Blog | Chrome 团队前端实践 | {{latest_content}}  |  [订阅地址](https://developer.chrome.com/blog/feed.xml) |
+| FE008 | 美团技术团队博客 | 美团工程实践 | {{latest_content}}  |  [订阅地址](https://tech.meituan.com/feed/) |
+| FE009 | 阮一峰的网络日志 | Web 技术与工程视角 | {{latest_content}}  |  [订阅地址](http://www.ruanyifeng.com/blog/atom.xml) |
+| FE0010 | JavaScript Weekly | JavaScript 每周新闻 | {{latest_content}}  |  [订阅地址](https://cprss.s3.amazonaws.com/javascriptweekly.com.xml) |
+| FE0011 | Smashing Magazine | 前端与设计工程深度文章 | {{latest_content}}  |  [订阅地址](https://www.smashingmagazine.com/feed/) |
 | <h2 id="泛科技">泛科技</h2> |  |   |  |
 | T001 | Hacker News | 高质量技术社区新闻流 | {{latest_content}}  |  [订阅地址](https://news.ycombinator.com/rss) |
 | T002 | 奇客Solidot | 科技与开源资讯 | {{latest_content}}  |  [订阅地址](https://www.solidot.org/index.rss) |
