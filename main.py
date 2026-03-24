@@ -224,6 +224,7 @@ def send_mail(email, title, contents):
 def replace_readme():
     new_edit_readme_md = ["", ""]
     current_date_news_by_category = {}
+    current_date_articles = []
 
 
     
@@ -299,6 +300,13 @@ def replace_readme():
                             "link": rss_info_atom["link"],
                             "index": new_num
                         })
+                        current_date_articles.append({
+                            "title": make_mail_title(
+                                rss_info_atom.get("title", ""),
+                                rss_info_atom.get("description", "")
+                            ),
+                            "link": rss_info_atom["link"]
+                        })
 
             except:
                 print("An exception occurred")
@@ -351,6 +359,12 @@ def replace_readme():
     # 将新内容
     with open(os.path.join(os.getcwd(),"README.md"),'w') as load_f:
         load_f.write(new_edit_readme_md[0])
+
+    with open(os.path.join(os.getcwd(), "result.json"), "w", encoding="utf-8") as load_f:
+        json.dump({
+            "date": today_str,
+            "articles": current_date_articles
+        }, load_f, ensure_ascii=False, indent=4)
     
 
     mail_re = r'邮件内容区开始>([.\S\s]*)<邮件内容区结束'
