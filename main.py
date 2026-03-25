@@ -14,15 +14,88 @@ from urllib.parse import urlparse
 from email.utils import parsedate_to_datetime
 from multiprocessing import Pool,  Manager
 
+SEEN_LINKS_FILE = os.path.join(os.getcwd(), ".seen_links.json")
+# 无日期文章的“新文放行阈值”（每个订阅源独立计数）。
+MAX_UNDATED_NEW_PER_FEED = 3
+# 每个订阅源最多保留多少条无日期已见链接。
+MAX_SEEN_LINKS = 10
+
+def load_seen_links_by_feed():
+    # 文件结构：
+    # {
+    #   "updated_at": "...",
+    #   "seen_links_by_feed": { "<feed_url>": ["link1", "link2"] }
+    # }
+    # 仅记录“无日期文章”的链接，用于下一次增量识别。
+    if not os.path.exists(SEEN_LINKS_FILE):
+        return {}
+
+    try:
+        with open(SEEN_LINKS_FILE, "r", encoding="utf-8") as f:
+            payload = json.load(f)
+        if not isinstance(payload, dict) or not isinstance(payload.get("seen_links_by_feed"), dict):
+            return {}
+
+        result = {}
+        source_map = payload.get("seen_links_by_feed", {})
+        for feed_key, links in source_map.items():
+            if not isinstance(links, list):
+                continue
+            normalized_links = []
+            seen_once = set()
+            for link in links:
+                normalized_link = str(link).strip()
+                if not normalized_link or normalized_link in seen_once:
+                    continue
+                seen_once.add(normalized_link)
+                normalized_links.append(normalized_link)
+            if normalized_links:
+                result[str(feed_key)] = normalized_links[-MAX_SEEN_LINKS:]
+        return result
+    except Exception:
+        return {}
+
+
+def save_seen_links_by_feed(seen_links_by_feed):
+    try:
+        normalized_map = {}
+        if isinstance(seen_links_by_feed, dict):
+            for feed_key, links in seen_links_by_feed.items():
+                if not isinstance(links, list):
+                    continue
+                clean_links = []
+                seen_once = set()
+                for link in links:
+                    normalized_link = str(link).strip()
+                    if not normalized_link or normalized_link in seen_once:
+                        continue
+                    seen_once.add(normalized_link)
+                    clean_links.append(normalized_link)
+                # 每个订阅源仅保留最近 MAX_SEEN_LINKS 条，控制体积与查询开销。
+                if clean_links:
+                    normalized_map[str(feed_key)] = clean_links[-MAX_SEEN_LINKS:]
+
+        with open(SEEN_LINKS_FILE, "w", encoding="utf-8") as f:
+            json.dump({
+                "updated_at": datetime.fromtimestamp(
+                    int(time.time()),
+                    pytz.timezone('Asia/Shanghai')
+                ).strftime('%Y-%m-%d %H:%M:%S'),
+                "seen_links_by_feed": normalized_map
+            }, f, ensure_ascii=False, indent=4)
+    except Exception as e:
+        print("save_seen_links_by_feed error:", e)
 
 
 def extract_entry_date(entry, feed=None):
-    for key in ("published_parsed", "updated_parsed"):
+    # 仅使用 entry 自身时间；不要回退 feed 元信息时间，
+    # 避免把整个订阅源的更新时间误当作每篇文章的发布时间。
+    for key in ("published_parsed", "updated_parsed", "created_parsed"):
         parsed_value = entry.get(key)
         if parsed_value:
             return time.strftime("%Y-%m-%d", parsed_value)
 
-    for key in ("published", "updated", "pubDate"):
+    for key in ("published", "updated", "pubDate", "created", "dc:date"):
         raw_value = entry.get(key)
         if raw_value:
             try:
@@ -30,21 +103,7 @@ def extract_entry_date(entry, feed=None):
             except Exception:
                 pass
 
-    if feed:
-        feed_meta = feed.get("feed", {})
-        for key in ("published_parsed", "updated_parsed"):
-            parsed_value = feed_meta.get(key)
-            if parsed_value:
-                return time.strftime("%Y-%m-%d", parsed_value)
-        for key in ("published", "updated", "pubDate"):
-            raw_value = feed_meta.get(key)
-            if raw_value:
-                try:
-                    return parsedate_to_datetime(raw_value).strftime("%Y-%m-%d")
-                except Exception:
-                    pass
-
-    return datetime.today().strftime("%Y-%m-%d")
+    return None
 
 
 def strip_html(raw_text):
@@ -136,7 +195,7 @@ def parse_feed_rows(edit_readme_md):
 def get_rss_info(feed_url, index, rss_info_list):
     result = {"result": []}
     request_success = False
-    # 如果请求出错,则重新请求,最多五次
+    # 拉取失败时做有限重试，尽量避免临时网络波动导致整源缺失。
     for i in range(3):
         if(request_success == False):
             try:
@@ -158,6 +217,7 @@ def get_rss_info(feed_url, index, rss_info_list):
                     link = entrie.get("link", "")
                     if not title or not link:
                         continue
+                    # 这里把日期统一归一到 YYYY-MM-DD，后续筛选逻辑只依赖这个字段。
                     date = extract_entry_date(entrie, feed)
                     description = extract_entry_description(entrie)
 
@@ -268,13 +328,21 @@ def replace_readme():
         print("----结束----", rss_info_list)
 
 
-        today_str = datetime.today().strftime("%Y-%m-%d")
+        today_str = datetime.fromtimestamp(
+            int(time.time()),
+            pytz.timezone('Asia/Shanghai')
+        ).strftime("%Y-%m-%d")
+        # 运行级去重：同一次构建中，避免同标题重复入选。
         seen_today_titles = set()
+        # 持久化去重：按订阅源保存“无日期文章”的已见链接。
+        seen_links_by_feed = load_seen_links_by_feed()
 
         for index, feed_row in enumerate(feed_rows):
             # 获取link
             link = feed_row["link"]
             category_name = feed_row["category"]
+            feed_seen_links = list(seen_links_by_feed.get(link, []))
+            feed_seen_links_set = set(feed_seen_links)
             # 生成超链接
             rss_info = rss_info_list[index]
             latest_content = ""
@@ -284,14 +352,40 @@ def replace_readme():
 
             # 加入到索引
             try:
+                # 每个订阅源单独统计无日期放行数量，防止某个源“无日期库存”一次性灌入。
+                undated_new_count = 0
                 for rss_info_atom in rss_info:
-                    if (rss_info_atom["date"] == today_str):
+                    atom_date = rss_info_atom.get("date")
+                    atom_link = rss_info_atom.get("link", "").strip()
+                    is_today = (atom_date == today_str)
+                    # 无日期兜底：
+                    # 1) 仅当链接未出现过
+                    # 2) 每个订阅源最多放行 MAX_UNDATED_NEW_PER_FEED 条
+                    # 这样兼顾“漏发新文”与“避免历史库存灌入”。
+                    is_undated_new = (
+                        atom_date is None and
+                        atom_link and
+                        atom_link not in feed_seen_links_set and
+                        undated_new_count < MAX_UNDATED_NEW_PER_FEED
+                    )
+
+                    if is_undated_new:
+                        undated_new_count = undated_new_count + 1
+
+                    if is_today or is_undated_new:
                         title_key = normalize_title_for_dedupe(rss_info_atom.get("title", ""))
                         if title_key in seen_today_titles:
                             continue
                         seen_today_titles.add(title_key)
+                        # 仅无日期文章写入持久化去重历史。
+                        if is_undated_new:
+                            feed_seen_links_set.add(atom_link)
+                            feed_seen_links.append(atom_link)
+                            if len(feed_seen_links) > MAX_SEEN_LINKS:
+                                feed_seen_links = feed_seen_links[-MAX_SEEN_LINKS:]
                         new_num = new_num + 1
                         category_list = current_date_news_by_category.setdefault(category_name, [])
+                        # 进入这里就视为“本次新文”，会同时进入 README 新闻索引和 result.json。
                         category_list.append({
                             "title": make_mail_title(
                                 rss_info_atom.get("title", ""),
@@ -318,20 +412,28 @@ def replace_readme():
                 rss_info[0]["title"] = rss_info[0]["title"].replace("[", "\[")
                 rss_info[0]["title"] = rss_info[0]["title"].replace("]", "\]")
 
-                latest_content = "[" + "‣ " + rss_info[0]["title"] + ( " 🆕 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[0]["link"] +")"  
+                first_date = rss_info[0].get("date") or "未知日期"
+                latest_content = "[" + "‣ " + rss_info[0]["title"] + (
+                    " 🆕 " + first_date if (first_date == today_str) else " \\| " + first_date
+                ) +"](" + rss_info[0]["link"] +")"  
 
             if(len(rss_info) > 1):
                 rss_info[1]["title"] = rss_info[1]["title"].replace("|", "\|")
                 rss_info[1]["title"] = rss_info[1]["title"].replace("[", "\[")
                 rss_info[1]["title"] = rss_info[1]["title"].replace("]", "\]")
 
-                latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"] + ( " 🆕 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[1]["link"] +")"
+                second_date = rss_info[1].get("date") or "未知日期"
+                latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"] + (
+                    " 🆕 " + second_date if (second_date == today_str) else " \\| " + second_date
+                ) +"](" + rss_info[1]["link"] +")"
 
             # 生成after_info
             after_info = feed_row["raw"].replace("{{latest_content}}", latest_content)
             print("====latest_content==>", latest_content)
             # 替换edit_readme_md中的内容
             new_edit_readme_md[0] = new_edit_readme_md[0].replace(feed_row["raw"], after_info)
+            # 每个订阅源独立回写状态，避免跨源串扰。
+            seen_links_by_feed[link] = feed_seen_links[-MAX_SEEN_LINKS:]
     
     current_date_news_index = []
     for category_name, category_items in current_date_news_by_category.items():
@@ -373,10 +475,13 @@ def replace_readme():
         })
 
     with open(os.path.join(os.getcwd(), "result.json"), "w", encoding="utf-8") as load_f:
+        # result.json 只输出“本次判定为新文”的结果（按分类分组）。
         json.dump({
             "date": today_str,
             "categories": articles_by_category
         }, load_f, ensure_ascii=False, indent=4)
+
+    save_seen_links_by_feed(seen_links_by_feed)
     
 
     mail_re = r'邮件内容区开始>([.\S\s]*)<邮件内容区结束'
