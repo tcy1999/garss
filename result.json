@@ -1,40 +1,36 @@
 {
-    "date": "2026-04-04",
+    "date": "2026-04-05",
     "categories": [
         {
             "category": "AI资讯",
             "articles": [
                 {
-                    "title": "Claude Code auto mode: a safer way to skip permissions",
-                    "link": "https://www.anthropic.com/engineering/claude-code-auto-mode"
+                    "title": "Effective harnesses for long-running agents",
+                    "link": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
                 },
                 {
-                    "title": "Designing AI-resistant technical evaluations",
-                    "link": "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations"
+                    "title": "Introducing advanced tool use on the Claude Developer Platform",
+                    "link": "https://www.anthropic.com/engineering/advanced-tool-use"
                 },
                 {
-                    "title": "Demystifying evals for AI agents",
-                    "link": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents"
+                    "title": "Code execution with MCP: Building more efficient agents",
+                    "link": "https://www.anthropic.com/engineering/code-execution-with-mcp"
                 },
                 {
-                    "title": "TanStack Start 推出导入保护机制，强化服务器与客户端边界划分",
-                    "link": "https://www.infoq.cn/article/QhTdGxCujzqx3oBHRszM?utm_source=rss&utm_medium=article"
+                    "title": "Linux内核维护者崩溃了！AI每天狂塞10份漏洞报告，想摸会鱼都难",
+                    "link": "https://www.qbitai.com/2026/04/396358.html"
                 },
                 {
-                    "title": "从 ChatBI 到 DataAgent：企业级智能数据分析平台的技术演进和实践｜QCon北京",
-                    "link": "https://www.infoq.cn/article/JPqgmdcQJRRWprIqQo7X?utm_source=rss&utm_medium=article"
+                    "title": "为了不跟龙虾抢电脑用，有人开始造Agent专属的“三无”硬件，比Mac Mini+存储便宜",
+                    "link": "https://www.qbitai.com/2026/04/396351.html"
                 },
                 {
-                    "title": "Kubernetes自动扩展功能需要新的可观测性关注点，而不局限于供应商工具",
-                    "link": "https://www.infoq.cn/article/BfJYpQWfUjc9jIHk1iiJ?utm_source=rss&utm_medium=article"
+                    "title": "Pinterest 部署生产级模型上下文协议生态系统，赋能 AI 智能体工作流",
+                    "link": "https://www.infoq.cn/article/04DleCzUztGhKgo26Mmk?utm_source=rss&utm_medium=article"
                 },
                 {
-                    "title": "How to Build Production-Ready Agentic Systems with Z.AI GLM-5 Using Thinking Mode, Tool Calling, Streaming, and Multi-Turn Workflows",
-                    "link": "https://www.marktechpost.com/2026/04/03/how-to-build-production-ready-agentic-systems-with-z-ai-glm-5-using-thinking-mode-tool-calling-streaming-and-multi-turn-workflows/"
-                },
-                {
-                    "title": "Anthropic is having a moment in the private markets; SpaceX could spoil the party",
-                    "link": "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/"
+                    "title": "Evomap如何让Agent从单体智能到群体进化｜QCon北京",
+                    "link": "https://www.infoq.cn/article/sDj8K6IhNzNQgMKhOGKr?utm_source=rss&utm_medium=article"
                 }
             ]
         },
@@ -42,28 +38,36 @@
             "category": "泛科技",
             "articles": [
                 {
-                    "title": "Show HN: Travel Hacking Toolkit – Points search and trip planning with AI",
-                    "link": "https://github.com/borski/travel-hacking-toolkit"
+                    "title": "Introduction to Computer Music [pdf]",
+                    "link": "https://composerprogrammer.com/introductiontocomputermusic.pdf"
                 },
                 {
-                    "title": "Delve Removed from Y Combinator",
-                    "link": "https://www.ycombinator.com/companies/delve"
+                    "title": "AWS Engineer Reports PostgreSQL Perf Halved by Linux 7.0, Fix May Not Be Easy",
+                    "link": "https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop"
                 },
                 {
-                    "title": "Gold overtakes U.S. Treasuries as the largest foreign reserve asset",
-                    "link": "https://economictimes.indiatimes.com/news/international/us/gold-overtakes-u-s-treasuries-as-the-worlds-largest-foreign-reserve-asset-in-2026-can-gold-challenge-the-u-s-dollars-dominance-and-hold-its-ground/articleshow/126420128.cms?from=mdr"
+                    "title": "Show HN: Contrapunk – Real-time counterpoint harmony from guitar input, in Rust",
+                    "link": "https://contrapunk.com/"
                 },
                 {
-                    "title": "google-research/timesfm",
-                    "link": "https://github.com/google-research/timesfm"
+                    "title": "Shooting down ideas is not a skill",
+                    "link": "https://scottlawsonbc.com/post/shooting-down-ideas"
                 },
                 {
-                    "title": "mvanhorn/last30days-skill",
-                    "link": "https://github.com/mvanhorn/last30days-skill"
+                    "title": "Isseven - Comments",
+                    "link": "https://isseven.app/"
                 },
                 {
-                    "title": "onyx-dot-app/onyx - Open Source AI Platform - AI Chat with advanced features that works with every L...",
-                    "link": "https://github.com/onyx-dot-app/onyx"
+                    "title": "microsoft/VibeVoice - Open-Source Frontier Voice AI 🎙️ VibeVoice: Open-Source Frontier Voice AI 📰 News...",
+                    "link": "https://github.com/microsoft/VibeVoice"
+                },
+                {
+                    "title": "vas3k/TaxHacker - Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions...",
+                    "link": "https://github.com/vas3k/TaxHacker"
+                },
+                {
+                    "title": "SakanaAI/AI-Scientist-v2",
+                    "link": "https://github.com/SakanaAI/AI-Scientist-v2"
                 }
             ]
         },
@@ -71,20 +75,16 @@
             "category": "理财投资",
             "articles": [
                 {
-                    "title": "高盛对冲基金业务主管：对“多空”都没信心，但股市的全面考验还没来",
-                    "link": "https://wallstreetcn.com/articles/3769242"
+                    "title": "自周三以来“未公开露面”！特朗普“一反常态”低调，周末“不停工作”连海湖庄园都不去了",
+                    "link": "https://wallstreetcn.com/articles/3769276"
                 },
                 {
-                    "title": "全球原油库存何时“见底”，这是“停摆时刻表”",
-                    "link": "https://wallstreetcn.com/articles/3769243"
+                    "title": "周三演讲“效果不佳”、对“媒体报道”不满、对“战争后果”沮丧！特朗普正考虑“大规模改组”内阁",
+                    "link": "https://wallstreetcn.com/articles/3769274"
                 },
                 {
-                    "title": "停火斡旋陷僵局：伊朗拒绝与美方伊斯兰堡会面，卡塔尔退出调解",
-                    "link": "https://wallstreetcn.com/articles/3769228"
-                },
-                {
-                    "title": "美军一天内两架战机被击落，伊朗媒体称美方营救飞行员未能成功",
-                    "link": "https://wallstreetcn.com/articles/3769241"
+                    "title": "特朗普警告伊朗：还剩“48小时”，伊朗军方回应“让侵略者付出代价”，战争升级至海湾“基础设施”？",
+                    "link": "https://wallstreetcn.com/articles/3769270"
                 }
             ]
         },
@@ -92,32 +92,24 @@
             "category": "新闻热点",
             "articles": [
                 {
-                    "title": "全国铁路今天预计发送旅客2190万人次 - 从国铁集团获悉，今天（4月4日）全国铁路预计发送旅客2190万人次，计划加开旅客列车1173列。昨天，全国铁路发送旅客1825.2万人次，运输安全平稳有序。（央...",
-                    "link": "https://36kr.com/newsflashes/3751849470395137?f=rss"
+                    "title": "高端智能投影品牌AWOL Vision获近亿元B轮融资，新品拿下近2000万美金众筹｜硬氪首发",
+                    "link": "https://36kr.com/p/3752260051616512?f=rss"
                 },
                 {
-                    "title": "国家统计局：3月下旬生猪价格环比下降5.9%",
-                    "link": "https://36kr.com/newsflashes/3751848479425025?f=rss"
+                    "title": "2026年飞天茅台原箱最新批价报1700元/瓶",
+                    "link": "https://36kr.com/newsflashes/3753281618363138?f=rss"
                 },
                 {
-                    "title": "Meta超智能实验室或正在组建硬件团队 - Meta超智能实验室或正在组建硬件团队。（财联社）",
-                    "link": "https://36kr.com/newsflashes/3751810910520064?f=rss"
+                    "title": "经济学家：美国3月CPI月率或大涨1% 美联储今年或难降息",
+                    "link": "https://36kr.com/newsflashes/3753256076034564?f=rss"
                 },
                 {
-                    "title": "2025年我国商业航天核心产业规模超万亿元",
-                    "link": "https://36kr.com/newsflashes/3751810071184129?f=rss"
+                    "title": "兆瓦级氢燃料航空涡桨发动机首飞成功 - 中国航发集团湖南动力机械研究所自主研制的兆瓦级氢燃料航空涡桨发动机AEP100配装7.5吨级无人运输机在株洲芦淞机场成功首飞。中国航发集团有关专家表示，未来随着...",
+                    "link": "https://36kr.com/newsflashes/3753250849145608?f=rss"
                 },
                 {
-                    "title": "美国3月标普全球服务业PMI终值为49.8",
-                    "link": "https://36kr.com/newsflashes/3751808937214724?f=rss"
-                },
-                {
-                    "title": "意大利央行下调未来三年经济增长预期 - 当地时间4月3日，意大利央行发布最新宏观经济预测报告，下调了该国未来三年的经济增长预期。报告预测意大利2026年的国内生产总值增长为0.5%，低于此前预测的0....",
-                    "link": "https://36kr.com/newsflashes/3751807646695940?f=rss"
-                },
-                {
-                    "title": "中金：黄金投资需求和价格或均存向上修复空间",
-                    "link": "https://36kr.com/newsflashes/3751806625628929?f=rss"
+                    "title": "3月中国大宗商品价格指数环比上涨4% - 中国物流与采购联合会今天公布3月份中国大宗商品价格指数。从指数运行情况看，节后企业生产稳步回升，市场需求较好释放，大宗商品市场总体保持扩张态势，向好基础进一步巩...",
+                    "link": "https://36kr.com/newsflashes/3753245927097097?f=rss"
                 }
             ]
         },
@@ -125,96 +117,72 @@
             "category": "数码产品",
             "articles": [
                 {
-                    "title": "大翻脸！Anthropic 封杀 OpenClaw，龙虾之父：说服失败",
-                    "link": "https://www.ifanr.com/1661053?utm_source=rss&utm_medium=rss&utm_campaign="
+                    "title": "特斯拉严打 FSD“越狱”，用户将承担事故全责并失去保修",
+                    "link": "https://www.ithome.com/0/936/095.htm"
                 },
                 {
-                    "title": "早报｜Slack粗暴切断大中华区服务引发用户不满/小米手机涨价，卢伟冰：内存涨价远超预期/三大外卖平台被约谈，6月落实食品安全新规",
-                    "link": "https://www.ifanr.com/1661050?utm_source=rss&utm_medium=rss&utm_campaign="
+                    "title": "索尼 CEO 十时裕树：娱乐业为公司贡献超六成收入，但我们是被迫改变的",
+                    "link": "https://www.ithome.com/0/936/091.htm"
                 },
                 {
-                    "title": "Steam 帧率估算功能曝光：玩家购入游戏前，明晰其电脑运行效果",
-                    "link": "https://www.ithome.com/0/935/951.htm"
+                    "title": "Rivian 今年 Q1 交车 10365 辆，在美国电动汽车市场“寒冬”中逆势增长",
+                    "link": "https://www.ithome.com/0/936/089.htm"
                 },
                 {
-                    "title": "不只是出错，研究称 AI 智能体开始学会“撒谎”“不听话”",
-                    "link": "https://www.ithome.com/0/935/950.htm"
+                    "title": "马斯克驳斥 SpaceX 将以 2 万亿美元估值启动 IPO 报道，称其为“胡说八道”",
+                    "link": "https://www.ithome.com/0/936/088.htm"
                 },
                 {
-                    "title": "载人绕月任务成功高光时刻，美国宇航局 2027 财年预算提案被削减 23%",
-                    "link": "https://www.ithome.com/0/935/949.htm"
+                    "title": "三星官宣：默认短信应用 Samsung Messages 将于 2026 年 7 月停用",
+                    "link": "https://www.ithome.com/0/936/087.htm"
                 },
                 {
-                    "title": "我国牵头，高压直流输电领域电容器国际标准成功立项",
-                    "link": "https://www.ithome.com/0/935/947.htm"
+                    "title": "英国视障跑者挑战马拉松，将借助智能眼镜“看”到赛道、辨别方向",
+                    "link": "https://www.ithome.com/0/936/086.htm"
                 },
                 {
-                    "title": "人类概率思维起源前推约 6000 年：565 件骰子文物出土，是原住民的“社交密码”",
-                    "link": "https://www.ithome.com/0/935/946.htm"
+                    "title": "消息称索尼已通知开发者，其正为推出 PS6 及新款 PlayStation 掌机做准备",
+                    "link": "https://www.ithome.com/0/936/085.htm"
                 },
                 {
-                    "title": "Valve 手柄 Steam Controller 初始化流程曝光：无线接收器 + 固件同步",
-                    "link": "https://www.ithome.com/0/935/945.htm"
+                    "title": "多部短剧 AI 角色“撞脸”易烊千玺，工作室发声明称已委请律师开展维权工作",
+                    "link": "https://www.ithome.com/0/936/084.htm"
                 },
                 {
-                    "title": "想参与 SpaceX IPO 还得先买 Grok 订阅，消息称马斯克向投行和律所提出新要求",
-                    "link": "https://www.ithome.com/0/935/944.htm"
+                    "title": "耶鲁大学经济学家雷斯特雷波：AGI 不会使大多数人类工作自动化",
+                    "link": "https://www.ithome.com/0/936/082.htm"
                 },
                 {
-                    "title": "涨幅 45 倍：H.264 流媒体许可年费飙升至 450 万美元",
-                    "link": "https://www.ithome.com/0/935/943.htm"
+                    "title": "索尼收缩多平台战略，PlayStation 工作室删除 PC 相关表述",
+                    "link": "https://www.ithome.com/0/936/081.htm"
                 },
                 {
-                    "title": "NASA 宇航员执行载人绕月任务突遇微软 Outlook 故障，地面团队接管 Surface 后修复",
-                    "link": "https://www.ithome.com/0/935/941.htm"
+                    "title": "山东首个脑机接口门诊开诊：20 个预约号两天前全部约满",
+                    "link": "https://www.ithome.com/0/936/080.htm"
                 },
                 {
-                    "title": "抗辐射能力超航天设备 1000 倍，日本研发耐核反应堆 Wi-Fi 接收器",
-                    "link": "https://www.ithome.com/0/935/940.htm"
+                    "title": "微软释放向下兼容信号，Xbox 360 游戏现身 xCloud",
+                    "link": "https://www.ithome.com/0/936/079.htm"
                 },
                 {
-                    "title": "One UI 9 代码揭秘：三星阔折叠手机 Galaxy Z Wide Fold 内屏比例为 4:3",
-                    "link": "https://www.ithome.com/0/935/939.htm"
+                    "title": "NASA 阿尔忒弥斯 2 号奔月途中，猎户座飞船卫生间传出烧焦味",
+                    "link": "https://www.ithome.com/0/936/077.htm"
                 },
                 {
-                    "title": "快舟十一号遥十三运载火箭顺利通过出厂质量评审",
-                    "link": "https://www.ithome.com/0/935/938.htm"
+                    "title": "AI 让英国学生“不会思考”，近 6000 名英格兰中学教师表示担忧",
+                    "link": "https://www.ithome.com/0/936/076.htm"
                 },
                 {
-                    "title": "三星 Galaxy S26 FE 手机跑分曝光：Exynos 2500 芯片、8GB 内存",
-                    "link": "https://www.ithome.com/0/935/937.htm"
+                    "title": "微软 Win11 新版 Copilot 内置完整 Edge 浏览器，内存占用飙升",
+                    "link": "https://www.ithome.com/0/936/075.htm"
                 },
                 {
-                    "title": "爱尔兰启动年龄验证机制试点，防止青少年接触社媒有害内容",
-                    "link": "https://www.ithome.com/0/935/936.htm"
+                    "title": "伊朗袭击亚马逊 AWS 中东数据中心，相关区域服务大规模瘫痪",
+                    "link": "https://www.ithome.com/0/936/074.htm"
                 },
                 {
-                    "title": "微软发布 Win11 Canary 29560.1000/28020.1803 预览版：触控笔可一键唤起 Copilot",
-                    "link": "https://www.ithome.com/0/935/935.htm"
-                },
-                {
-                    "title": "微软发布 Win11 Beta 26220.8148/Dev 26300.8155 预览版：优化输入、增强打印、提速启动",
-                    "link": "https://www.ithome.com/0/935/933.htm"
-                },
-                {
-                    "title": "上汽集团：今年不同品牌将逐步推出搭载半固态电池的量产车型",
-                    "link": "https://www.ithome.com/0/935/932.htm"
-                },
-                {
-                    "title": "Meta 首席技术官博斯沃思寄语大学生：若想进入科技行业就要不断创造",
-                    "link": "https://www.ithome.com/0/935/931.htm"
-                },
-                {
-                    "title": "微软 Win11 预览版“功能标记”曝光，可原生解锁系统隐藏功能",
-                    "link": "https://www.ithome.com/0/935/930.htm"
-                },
-                {
-                    "title": "OpenAI 上市前夕突发人事巨变：COO 莱特卡普调岗，两名高管休病假",
-                    "link": "https://www.ithome.com/0/935/929.htm"
-                },
-                {
-                    "title": "微软领英 LinkedIn 被指未经许可，扫描浏览器扩展构建用户画像",
-                    "link": "https://www.ithome.com/0/935/928.htm"
+                    "title": "美国人气车评网站 Edmunds 首次测试中国汽车，直言“美国车企有压力了”",
+                    "link": "https://www.ithome.com/0/936/073.htm"
                 }
             ]
         }
