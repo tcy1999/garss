@@ -1,36 +1,28 @@
 {
-    "date": "2026-04-05",
+    "date": "2026-04-06",
     "categories": [
         {
             "category": "AI资讯",
             "articles": [
                 {
-                    "title": "Effective harnesses for long-running agents",
-                    "link": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+                    "title": "Quantifying infrastructure noise in agentic coding evals",
+                    "link": "https://www.anthropic.com/engineering/infrastructure-noise"
                 },
                 {
-                    "title": "Introducing advanced tool use on the Claude Developer Platform",
-                    "link": "https://www.anthropic.com/engineering/advanced-tool-use"
+                    "title": "Harness design for long-running application development",
+                    "link": "https://www.anthropic.com/engineering/harness-design-long-running-apps"
                 },
                 {
-                    "title": "Code execution with MCP: Building more efficient agents",
-                    "link": "https://www.anthropic.com/engineering/code-execution-with-mcp"
+                    "title": "Beyond permission prompts: making Claude Code more secure and autonomous",
+                    "link": "https://www.anthropic.com/engineering/claude-code-sandboxing"
                 },
                 {
-                    "title": "Linux内核维护者崩溃了！AI每天狂塞10份漏洞报告，想摸会鱼都难",
-                    "link": "https://www.qbitai.com/2026/04/396358.html"
+                    "title": "AI 时代的架构治理 - 点击查看原文>",
+                    "link": "https://www.infoq.cn/article/VFRyL5oDK269xIcp8SDi?utm_source=rss&utm_medium=article"
                 },
                 {
-                    "title": "为了不跟龙虾抢电脑用，有人开始造Agent专属的“三无”硬件，比Mac Mini+存储便宜",
-                    "link": "https://www.qbitai.com/2026/04/396351.html"
-                },
-                {
-                    "title": "Pinterest 部署生产级模型上下文协议生态系统，赋能 AI 智能体工作流",
-                    "link": "https://www.infoq.cn/article/04DleCzUztGhKgo26Mmk?utm_source=rss&utm_medium=article"
-                },
-                {
-                    "title": "Evomap如何让Agent从单体智能到群体进化｜QCon北京",
-                    "link": "https://www.infoq.cn/article/sDj8K6IhNzNQgMKhOGKr?utm_source=rss&utm_medium=article"
+                    "title": "有道龙虾 LobsterAI 的养成与实践｜QCon北京",
+                    "link": "https://www.infoq.cn/article/yS2ckf9u8eUVflGIjdcF?utm_source=rss&utm_medium=article"
                 }
             ]
         },
@@ -38,36 +30,52 @@
             "category": "泛科技",
             "articles": [
                 {
-                    "title": "Introduction to Computer Music [pdf]",
-                    "link": "https://composerprogrammer.com/introductiontocomputermusic.pdf"
+                    "title": "Show HN: I built a tiny LLM to demystify how language models work",
+                    "link": "https://github.com/arman-bd/guppylm"
                 },
                 {
-                    "title": "AWS Engineer Reports PostgreSQL Perf Halved by Linux 7.0, Fix May Not Be Easy",
-                    "link": "https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop"
+                    "title": "Show HN: YouTube search barely works, I made a search form with advanced filters",
+                    "link": "https://playlists.at/youtube/search/"
                 },
                 {
-                    "title": "Show HN: Contrapunk – Real-time counterpoint harmony from guitar input, in Rust",
-                    "link": "https://contrapunk.com/"
+                    "title": "Copilot is 'for entertainment purposes only', per Microsoft's terms of use",
+                    "link": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/"
                 },
                 {
-                    "title": "Shooting down ideas is not a skill",
-                    "link": "https://scottlawsonbc.com/post/shooting-down-ideas"
+                    "title": "Employers use your personal data to figure out the lowest salary you'll accept",
+                    "link": "https://www.marketwatch.com/story/employers-are-using-your-personal-data-to-figure-out-the-lowest-salary-youll-accept-c2b968fb"
                 },
                 {
-                    "title": "Isseven - Comments",
-                    "link": "https://isseven.app/"
+                    "title": "Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud",
+                    "link": "https://github.com/kessler/gemma-gem"
                 },
                 {
-                    "title": "microsoft/VibeVoice - Open-Source Frontier Voice AI 🎙️ VibeVoice: Open-Source Frontier Voice AI 📰 News...",
-                    "link": "https://github.com/microsoft/VibeVoice"
+                    "title": "Recall – local multimodal semantic search for your files",
+                    "link": "https://github.com/aayu22809/Recall"
                 },
                 {
-                    "title": "vas3k/TaxHacker - Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions...",
-                    "link": "https://github.com/vas3k/TaxHacker"
+                    "title": "Apex Protocol – An open MCP-based standard for AI agent trading",
+                    "link": "https://apexstandard.org/"
                 },
                 {
-                    "title": "SakanaAI/AI-Scientist-v2",
-                    "link": "https://github.com/SakanaAI/AI-Scientist-v2"
+                    "title": "LLMs can't justify their answers–this CLI forces them to",
+                    "link": "https://wheat.grainulation.com/"
+                },
+                {
+                    "title": "luongnv89/claude-howto",
+                    "link": "https://github.com/luongnv89/claude-howto"
+                },
+                {
+                    "title": "sherlock-project/sherlock",
+                    "link": "https://github.com/sherlock-project/sherlock"
+                },
+                {
+                    "title": "asgeirtj/system_prompts_leaks",
+                    "link": "https://github.com/asgeirtj/system_prompts_leaks"
+                },
+                {
+                    "title": "Chinese Battery-Storage Supplier Sees Shipments Doubling in 2026",
+                    "link": "https://www.bloomberg.com/news/articles/2026-04-06/chinese-battery-storage-supplier-sees-shipments-doubling-in-2026"
                 }
             ]
         },
@@ -75,16 +83,12 @@
             "category": "理财投资",
             "articles": [
                 {
-                    "title": "自周三以来“未公开露面”！特朗普“一反常态”低调，周末“不停工作”连海湖庄园都不去了",
-                    "link": "https://wallstreetcn.com/articles/3769276"
+                    "title": "报道：伊朗问题调停者正为45天停火协议做最后努力，但希望渺茫",
+                    "link": "https://wallstreetcn.com/articles/3769307"
                 },
                 {
-                    "title": "周三演讲“效果不佳”、对“媒体报道”不满、对“战争后果”沮丧！特朗普正考虑“大规模改组”内阁",
-                    "link": "https://wallstreetcn.com/articles/3769274"
-                },
-                {
-                    "title": "特朗普警告伊朗：还剩“48小时”，伊朗军方回应“让侵略者付出代价”，战争升级至海湾“基础设施”？",
-                    "link": "https://wallstreetcn.com/articles/3769270"
+                    "title": "特朗普再发“48小时通牒”，周一开盘油价大涨，黄金、美股期货下跌，日韩股市高开",
+                    "link": "https://wallstreetcn.com/articles/3769300"
                 }
             ]
         },
@@ -92,24 +96,60 @@
             "category": "新闻热点",
             "articles": [
                 {
-                    "title": "高端智能投影品牌AWOL Vision获近亿元B轮融资，新品拿下近2000万美金众筹｜硬氪首发",
-                    "link": "https://36kr.com/p/3752260051616512?f=rss"
+                    "title": "今日长三角铁路迎假期返程客流高峰 预计发送旅客425万人次",
+                    "link": "https://36kr.com/newsflashes/3754735672181254?f=rss"
                 },
                 {
-                    "title": "2026年飞天茅台原箱最新批价报1700元/瓶",
-                    "link": "https://36kr.com/newsflashes/3753281618363138?f=rss"
+                    "title": "华泰证券：看好中国头部家电企业继续提升中东市场份额",
+                    "link": "https://36kr.com/newsflashes/3754718229512966?f=rss"
                 },
                 {
-                    "title": "经济学家：美国3月CPI月率或大涨1% 美联储今年或难降息",
-                    "link": "https://36kr.com/newsflashes/3753256076034564?f=rss"
+                    "title": "A股将有73.18亿股限售股解禁，总市值约1090.02亿元",
+                    "link": "https://36kr.com/newsflashes/3754693838275335?f=rss"
                 },
                 {
-                    "title": "兆瓦级氢燃料航空涡桨发动机首飞成功 - 中国航发集团湖南动力机械研究所自主研制的兆瓦级氢燃料航空涡桨发动机AEP100配装7.5吨级无人运输机在株洲芦淞机场成功首飞。中国航发集团有关专家表示，未来随着...",
-                    "link": "https://36kr.com/newsflashes/3753250849145608?f=rss"
+                    "title": "六部门：支持符合条件的电商企业发行债券融资 优化融资等政策流程",
+                    "link": "https://36kr.com/newsflashes/3754714165134080?f=rss"
                 },
                 {
-                    "title": "3月中国大宗商品价格指数环比上涨4% - 中国物流与采购联合会今天公布3月份中国大宗商品价格指数。从指数运行情况看，节后企业生产稳步回升，市场需求较好释放，大宗商品市场总体保持扩张态势，向好基础进一步巩...",
-                    "link": "https://36kr.com/newsflashes/3753245927097097?f=rss"
+                    "title": "10年期日本国债收益率达新高 - 当地时间4月6日，作为日本长期利率指标的10年期新发国债收益率一度上升至2.400%，为1999年2月以来的最高水平。（界面）",
+                    "link": "https://36kr.com/newsflashes/3754665311093254?f=rss"
+                },
+                {
+                    "title": "商务部等6部门：发展“人工智能+电商”，引导电商企业加强人工智能大模型等技术研发应用",
+                    "link": "https://36kr.com/newsflashes/3754713105957637?f=rss"
+                },
+                {
+                    "title": "全国铁路今天预计发送旅客2080万人次 - 据国铁集团，今天（4月6日）全国铁路预计发送旅客2080万人次，计划加开旅客列车1369列。昨天（4月5日），全国铁路发送旅客1475.6万人次，运输安全平稳有...",
+                    "link": "https://36kr.com/newsflashes/3754664690336519?f=rss"
+                },
+                {
+                    "title": "日经225指数涨超1% - 日经225指数涨超1%，报53667.98点。（界面）",
+                    "link": "https://36kr.com/newsflashes/3754663868858882?f=rss"
+                },
+                {
+                    "title": "深圳推出“科薪通”试点 便利涉外员工跨境薪酬用汇",
+                    "link": "https://36kr.com/newsflashes/3754661771281154?f=rss"
+                },
+                {
+                    "title": "美联储4月维持利率不变的概率为98.4%",
+                    "link": "https://36kr.com/newsflashes/3754659765502729?f=rss"
+                },
+                {
+                    "title": "比特币升破69000美元，日内涨2.60%。",
+                    "link": "https://36kr.com/newsflashes/3754658733228800?f=rss"
+                },
+                {
+                    "title": "一季度ETF总规模蒸发逾万亿，部分公司逆势“吸金”",
+                    "link": "https://36kr.com/newsflashes/3754657850098439?f=rss"
+                },
+                {
+                    "title": "超百家机构扎堆调研5只脑机接口概念股 - 在多重因素叠加推动下，脑机接口技术有望进入大规模商业化落地“黄金窗口期”，2026年成为脑机接口规模化应用元年。 据证券时报·数据宝统计，A股市场涉及脑机接口概...",
+                    "link": "https://36kr.com/newsflashes/3754653360734726?f=rss"
+                },
+                {
+                    "title": "高壓水槍洗地、清理泳池和割草：為甚麼數百萬人正在玩幹著瑣碎工作的英國網遊？",
+                    "link": "https://www.bbc.com/zhongwen/articles/cjr91x2x1v4o/trad?at_medium=RSS&at_campaign=rss"
                 }
             ]
         },
@@ -117,72 +157,80 @@
             "category": "数码产品",
             "articles": [
                 {
-                    "title": "特斯拉严打 FSD“越狱”，用户将承担事故全责并失去保修",
-                    "link": "https://www.ithome.com/0/936/095.htm"
+                    "title": "研究人员 3D 打印出微米级柔性微型机器人，无需大脑即可自主移动",
+                    "link": "https://www.ithome.com/0/936/212.htm"
                 },
                 {
-                    "title": "索尼 CEO 十时裕树：娱乐业为公司贡献超六成收入，但我们是被迫改变的",
-                    "link": "https://www.ithome.com/0/936/091.htm"
+                    "title": "阿耳忒弥斯二号任务将测试 NASA 激光通信系统，可传输 4K 视频、照片",
+                    "link": "https://www.ithome.com/0/936/210.htm"
                 },
                 {
-                    "title": "Rivian 今年 Q1 交车 10365 辆，在美国电动汽车市场“寒冬”中逆势增长",
-                    "link": "https://www.ithome.com/0/936/089.htm"
+                    "title": "银河系边缘发现数十条暗淡恒星带，为破解暗物质分布提供新线索",
+                    "link": "https://www.ithome.com/0/936/209.htm"
                 },
                 {
-                    "title": "马斯克驳斥 SpaceX 将以 2 万亿美元估值启动 IPO 报道，称其为“胡说八道”",
-                    "link": "https://www.ithome.com/0/936/088.htm"
+                    "title": "岚图泰山 X8“庭院级大五座 SUV”六款车色公布，预计上半年上市",
+                    "link": "https://www.ithome.com/0/936/208.htm"
                 },
                 {
-                    "title": "三星官宣：默认短信应用 Samsung Messages 将于 2026 年 7 月停用",
-                    "link": "https://www.ithome.com/0/936/087.htm"
+                    "title": "米粉节福利加一：小米之家今起开启免费领“新一代 SU7 卡布里蓝直饮杯”活动，4 月 12 日结束",
+                    "link": "https://www.ithome.com/0/936/207.htm"
                 },
                 {
-                    "title": "英国视障跑者挑战马拉松，将借助智能眼镜“看”到赛道、辨别方向",
-                    "link": "https://www.ithome.com/0/936/086.htm"
+                    "title": "清明假期最后一天：全国铁路今天预计发送旅客 2080 万人次",
+                    "link": "https://www.ithome.com/0/936/206.htm"
                 },
                 {
-                    "title": "消息称索尼已通知开发者，其正为推出 PS6 及新款 PlayStation 掌机做准备",
-                    "link": "https://www.ithome.com/0/936/085.htm"
+                    "title": "为照顾没玩过游戏的观众，消息称亚马逊《质量效应》电视剧正重写剧本",
+                    "link": "https://www.ithome.com/0/936/205.htm"
                 },
                 {
-                    "title": "多部短剧 AI 角色“撞脸”易烊千玺，工作室发声明称已委请律师开展维权工作",
-                    "link": "https://www.ithome.com/0/936/084.htm"
+                    "title": "DLSS 5 争议未平又遭乌龙：英伟达官方预告片因虚假版权投诉被 YouTube 下架",
+                    "link": "https://www.ithome.com/0/936/203.htm"
                 },
                 {
-                    "title": "耶鲁大学经济学家雷斯特雷波：AGI 不会使大多数人类工作自动化",
-                    "link": "https://www.ithome.com/0/936/082.htm"
+                    "title": "商务部等 6 部门：发展“人工智能 + 电商”，引导电商企业加强人工智能大模型等技术研发应用",
+                    "link": "https://www.ithome.com/0/936/202.htm"
                 },
                 {
-                    "title": "索尼收缩多平台战略，PlayStation 工作室删除 PC 相关表述",
-                    "link": "https://www.ithome.com/0/936/081.htm"
+                    "title": "50 余款谷歌 Play 商店应用暗藏“NoVoice”恶意软件，下载量达 230 万次",
+                    "link": "https://www.ithome.com/0/936/201.htm"
                 },
                 {
-                    "title": "山东首个脑机接口门诊开诊：20 个预约号两天前全部约满",
-                    "link": "https://www.ithome.com/0/936/080.htm"
+                    "title": "60 万美元投资换来 264 亿美元回报，红杉资本揭秘 1977 年投资苹果往事",
+                    "link": "https://www.ithome.com/0/936/200.htm"
                 },
                 {
-                    "title": "微软释放向下兼容信号，Xbox 360 游戏现身 xCloud",
-                    "link": "https://www.ithome.com/0/936/079.htm"
+                    "title": "Mac 跑 AI 模型更方便了，Tiny Corp 称苹果已为英伟达、AMD 外置显卡开绿灯",
+                    "link": "https://www.ithome.com/0/936/197.htm"
                 },
                 {
-                    "title": "NASA 阿尔忒弥斯 2 号奔月途中，猎户座飞船卫生间传出烧焦味",
-                    "link": "https://www.ithome.com/0/936/077.htm"
+                    "title": "一季度涨价 1 倍后，消息称三星电子将第二季度 DRAM 价格再提高 30%",
+                    "link": "https://www.ithome.com/0/936/196.htm"
                 },
                 {
-                    "title": "AI 让英国学生“不会思考”，近 6000 名英格兰中学教师表示担忧",
-                    "link": "https://www.ithome.com/0/936/076.htm"
+                    "title": "从排尿故障到烧焦味，NASA 阿耳忒弥斯 2 号任务的太空马桶成焦点",
+                    "link": "https://www.ithome.com/0/936/195.htm"
                 },
                 {
-                    "title": "微软 Win11 新版 Copilot 内置完整 Edge 浏览器，内存占用飙升",
-                    "link": "https://www.ithome.com/0/936/075.htm"
+                    "title": "派拉蒙收购华纳兄弟交易迎强援，消息称沙特基金承诺近 240 亿美元股权支持",
+                    "link": "https://www.ithome.com/0/936/193.htm"
                 },
                 {
-                    "title": "伊朗袭击亚马逊 AWS 中东数据中心，相关区域服务大规模瘫痪",
-                    "link": "https://www.ithome.com/0/936/074.htm"
+                    "title": "青岛 9 部门联合发布工作方案，推动建设 57 个过亿元规模汽车产业项目",
+                    "link": "https://www.ithome.com/0/936/192.htm"
                 },
                 {
-                    "title": "美国人气车评网站 Edmunds 首次测试中国汽车，直言“美国车企有压力了”",
-                    "link": "https://www.ithome.com/0/936/073.htm"
+                    "title": "开源 PS3 模拟器 RPCS3 实现 SPU 模拟突破，游戏帧率有望提升 5% 至 7%",
+                    "link": "https://www.ithome.com/0/936/191.htm"
+                },
+                {
+                    "title": "发射推迟意外收获：NASA 阿耳忒弥斯 2 号宇航员将观测地球上无法看到的日全食",
+                    "link": "https://www.ithome.com/0/936/190.htm"
+                },
+                {
+                    "title": "发现频道：最近10日的热门排行榜[2026年第14期]",
+                    "link": "https://www.appinn.com/faxian-top10-2614/"
                 }
             ]
         }
