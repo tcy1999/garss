@@ -4,7 +4,7 @@ import os
 import re
 import pytz
 import html
-from datetime import datetime
+from datetime import datetime, timedelta
 import yagmail
 import requests
 import markdown
@@ -18,7 +18,7 @@ SEEN_LINKS_FILE = os.path.join(os.getcwd(), ".seen_links.json")
 # 无日期文章的“新文放行阈值”（每个订阅源独立计数）。
 MAX_UNDATED_NEW_PER_FEED = 3
 # 每个订阅源最多保留多少条无日期已见链接。
-MAX_SEEN_LINKS = 10
+MAX_SEEN_LINKS = 100
 
 def load_seen_links_by_feed():
     # 文件结构：
@@ -332,6 +332,10 @@ def replace_readme():
             int(time.time()),
             pytz.timezone('Asia/Shanghai')
         ).strftime("%Y-%m-%d")
+        yesterday_str = (
+            datetime.fromtimestamp(int(time.time()), pytz.timezone('Asia/Shanghai'))
+            - timedelta(days=1)
+        ).strftime("%Y-%m-%d")
         # 运行级去重：同一次构建中，避免同标题重复入选。
         seen_today_titles = set()
         # 持久化去重：按订阅源保存“无日期文章”的已见链接。
@@ -357,11 +361,11 @@ def replace_readme():
                 for rss_info_atom in rss_info:
                     atom_date = rss_info_atom.get("date")
                     atom_link = rss_info_atom.get("link", "").strip()
-                    is_today = (atom_date == today_str)
+                    is_dated_new = (atom_date == yesterday_str)
                     # 无日期兜底：
                     # 1) 仅当链接未出现过
                     # 2) 每个订阅源最多放行 MAX_UNDATED_NEW_PER_FEED 条
-                    # 这样兼顾“漏发新文”与“避免历史库存灌入”。
+                    # 这样兼顾”漏发新文”与”避免历史库存灌入”。
                     is_undated_new = (
                         atom_date is None and
                         atom_link and
@@ -372,7 +376,7 @@ def replace_readme():
                     if is_undated_new:
                         undated_new_count = undated_new_count + 1
 
-                    if is_today or is_undated_new:
+                    if is_dated_new or is_undated_new:
                         title_key = normalize_title_for_dedupe(rss_info_atom.get("title", ""))
                         if title_key in seen_today_titles:
                             continue
@@ -414,8 +418,8 @@ def replace_readme():
 
                 first_date = rss_info[0].get("date") or "未知日期"
                 latest_content = "[" + "‣ " + rss_info[0]["title"] + (
-                    " 🆕 " + first_date if (first_date == today_str) else " \\| " + first_date
-                ) +"](" + rss_info[0]["link"] +")"  
+                    " 🆕 " + first_date if (first_date == yesterday_str) else " \\| " + first_date
+                ) +"](" + rss_info[0]["link"] +")"
 
             if(len(rss_info) > 1):
                 rss_info[1]["title"] = rss_info[1]["title"].replace("|", "\|")
@@ -424,7 +428,7 @@ def replace_readme():
 
                 second_date = rss_info[1].get("date") or "未知日期"
                 latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"] + (
-                    " 🆕 " + second_date if (second_date == today_str) else " \\| " + second_date
+                    " 🆕 " + second_date if (second_date == yesterday_str) else " \\| " + second_date
                 ) +"](" + rss_info[1]["link"] +")"
 
             # 生成after_info

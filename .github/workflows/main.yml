@@ -1,7 +1,7 @@
 name: zhaoolee
 on:
   schedule:
-    - cron:  '0 2 * * *'    # 国际标准时间2点（北京时间早上10点发）
+    - cron:  '0 16 * * *'    # 国际标准时间16点（北京时间凌晨0点），扫描昨天全天文章
   push:
     branches:    
       - main
