@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-06-04 03:54:17",
+    "updated_at": "2026-06-05 02:24:52",
     "seen_links_by_feed": {
         "https://rsshub.rss3.workers.dev/anthropic/engineering": [
             "https://www.anthropic.com/engineering/claude-code-sandboxing",
@@ -25,9 +25,6 @@
             "https://www.anthropic.com/engineering/how-we-contain-claude"
         ],
         "https://mshibanami.github.io/GitHubTrendingRSS/weekly/all.xml": [
-            "https://github.com/multica-ai/multica",
-            "https://github.com/NousResearch/hermes-agent",
-            "https://github.com/Lordog/dive-into-llms",
             "https://github.com/Tracer-Cloud/opensre",
             "https://github.com/mksglu/context-mode",
             "https://github.com/zilliztech/claude-context",
@@ -124,7 +121,15 @@
             "https://github.com/EveryInc/compound-engineering-plugin",
             "https://github.com/chopratejas/headroom",
             "https://github.com/supermemoryai/supermemory",
-            "https://github.com/modelscope/FunASR"
+            "https://github.com/modelscope/FunASR",
+            "https://github.com/OpenMOSS/MOSS-TTS",
+            "https://github.com/OpenBMB/VoxCPM",
+            "https://github.com/anthropics/claude-code"
+        ],
+        "https://tech.meituan.com/feed/": [
+            "https://tech.meituan.com/2026/05/25/LongCat-Video-Avatar-1.5.html",
+            "https://tech.meituan.com/2026/05/15/LongCat-General-365.html",
+            "https://tech.meituan.com/2026/05/07/Agent-AI-Coding.html"
         ]
     }
 }
