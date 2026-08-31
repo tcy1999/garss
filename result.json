@@ -1,24 +1,181 @@
 {
-    "date": "2026-08-31",
+    "date": "2026-09-01",
     "categories": [
         {
             "category": "AI资讯",
             "articles": [
                 {
-                    "title": "Anthropic Opens a Research Preview of the Model Hardware Standard (MHS): A Shared Specification for AI Agents to Safely Operate Physical Devices",
-                    "link": "https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices/"
+                    "title": "A milestone in expanding access to AI",
+                    "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
                 },
                 {
-                    "title": "Meet ‘Code-as-World’: An Agentic Loop That Rewrites Real Videos Into Executable MuJoCo Physics Programs",
-                    "link": "https://www.marktechpost.com/2026/08/29/mirros-code-as-world-executable-world-representations/"
+                    "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+                    "link": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/"
                 },
                 {
-                    "title": "Musk’s faster path to more gas turbines comes with pollution problem",
-                    "link": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/"
+                    "title": "AWS recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025",
+                    "link": "https://aws.amazon.com/blogs/machine-learning/aws-recognized-as-a-leader-in-the-forrester-wave-ai-infrastructure-solutions-q4-2025/"
                 },
                 {
-                    "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
-                    "link": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/"
+                    "title": "Manage agents, tools and skills at scale with AWS Agent Registry",
+                    "link": "https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry/"
+                },
+                {
+                    "title": "Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation",
+                    "link": "https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation/"
+                },
+                {
+                    "title": "Build multi-tenant agentic chat applications on enterprise data with Amazon Bedrock Managed Knowledge Base",
+                    "link": "https://aws.amazon.com/blogs/machine-learning/build-multi-tenant-agentic-chat-applications-on-enterprise-data-with-amazon-bedrock-managed-knowledge-base/"
+                },
+                {
+                    "title": "VC疯了！200万现金冠军奖，又花4000万造了一座AI「创业乌托邦」",
+                    "link": "https://www.qbitai.com/2026/08/481928.html"
+                },
+                {
+                    "title": "滴滴自动驾驶新一代车型开启载客测试服务 - 近期，滴滴自动驾驶新一代 Robotaxi R2正式开启无人载客测试服务",
+                    "link": "https://www.qbitai.com/2026/08/481923.html"
+                },
+                {
+                    "title": "范式与华为达成重磅算力战略合作，成为首批拥抱国产最高端算力底座的AI企业",
+                    "link": "https://www.qbitai.com/2026/08/481919.html"
+                },
+                {
+                    "title": "「GPT-6」灰测demo刷屏！周四发布在即",
+                    "link": "https://www.qbitai.com/2026/08/481893.html"
+                },
+                {
+                    "title": "OpenAI买几万台Mac搞强化训练！英伟达的活被苹果抢了",
+                    "link": "https://www.qbitai.com/2026/08/481759.html"
+                },
+                {
+                    "title": "全国第三，公司第二，“初创黑马”灵犀智涌用ROSS Harness把机器人送进工业具身智能第一梯队",
+                    "link": "https://www.qbitai.com/2026/08/481750.html"
+                },
+                {
+                    "title": "AQuA：让量化研究 Agent 持续进化，也让回测结果经得起检验",
+                    "link": "https://www.qbitai.com/2026/08/481475.html"
+                },
+                {
+                    "title": "从出片到出海：AI MediaKit 重塑短剧全链路生产力",
+                    "link": "https://www.infoq.cn/article/L7P7cA3UMXXQJcBfyHuJ?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
+                    "link": "https://www.infoq.cn/article/l88X1azz8wfwphDyECoP?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "智能体适应度函数：将演进式架构扩展至确定性规则之外",
+                    "link": "https://www.infoq.cn/article/8iWWrov7bkk1hz5CcFft?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "AI Coding 之后，如何让 Agent 进入企业研发全链路？得物推荐的 Harness 实践",
+                    "link": "https://www.infoq.cn/article/sDyQxrWR6zDPJuLX4FA8?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "当数采设备不再稀缺，具身数据下一步拼什么？",
+                    "link": "https://www.infoq.cn/article/D2r6SJ2oYVAXGMBkPcRM?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "OpenClaw 从意外爆红到“无人问津”：一个开源 AI Agent 的八个月过山车",
+                    "link": "https://www.infoq.cn/article/4KQHJC49t8J8FPqaEVLv?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "“你以为买的是 DeepSeek Flash，到手可能是 1.5 bit 缩水版”：Pi 核心贡献者谈 AI Token 黑箱",
+                    "link": "https://www.infoq.cn/article/rsiiPG7xwQakgyulC88D?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "“烂代码”转正？Bun稳定版终落地：跳票一个半月，2900个问题清零",
+                    "link": "https://www.infoq.cn/article/olsG3w9zkyKRqbQesB1g?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "不抢最贵GPU，专捡“没人要”的算力：前英伟达工程师搞出一套“拾荒者”打法",
+                    "link": "https://www.infoq.cn/article/6gFLptyMHRQhrILOlQ9Q?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "坚决不用行业标准AGENTS.md，Claude Code惹来“封杀令”：Anthropic终于回应了，但开发者更气了",
+                    "link": "https://www.infoq.cn/article/GuFWNd24Ww5AFlrXxTBo?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "Rx.NET 7.0 拆分 Windows UI 支持，大幅缩减应用部署体积",
+                    "link": "https://www.infoq.cn/article/tiJTwoTI7Z0pI6huyRPW?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成",
+                    "link": "https://www.infoq.cn/article/OCUqGd8wceo7UK23B7NO?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "自研Runtime、Agent Loop、Infra：一家通用Agent公司的全栈赌注",
+                    "link": "https://www.infoq.cn/article/NUGYDLvivgYXMV9u637z?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "Cisco 给 9 万员工配上个人 Agent：记住你的一切，还能替你跨系统办事",
+                    "link": "https://www.infoq.cn/article/HQXDr69U4tUQUDzEiidW?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "OpenAI 将全面断供 Cursor：SpaceX 收购后触发控制权条款",
+                    "link": "https://www.infoq.cn/article/YiHrlKLX6I6IP92BgV7K?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "Kubeflow扩展了AI功能，项目临近CNCF毕业",
+                    "link": "https://www.infoq.cn/article/grb2X7v7fr6kUNuuRkvt?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "Netflix采用云原生作业队列系统Kueue替代内部解决方案",
+                    "link": "https://www.infoq.cn/article/d1qT2acYJodVCcKaBe4u?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "长鑫存储起诉美国防部；Anthropic面试流程曝光，额度明升暗降引众怒；网易推出带薪“宠物陪护假” | AI周报",
+                    "link": "https://www.infoq.cn/article/8Ot7gRMNDMICpCW2Rk34?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "InfoQ 2026 年云计算与 DevOps 趋势报告",
+                    "link": "https://www.infoq.cn/article/CsSbsqtM2jYZb8THXcrE?utm_source=rss&utm_medium=article"
+                },
+                {
+                    "title": "The Pentagon now has its own version of ChatGPT and Grok",
+                    "link": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/"
+                },
+                {
+                    "title": "Instagram puts new limits on undisclosed AI profiles",
+                    "link": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/"
+                },
+                {
+                    "title": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
+                    "link": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/"
+                },
+                {
+                    "title": "Clipto uses AI to search terabytes of video and is now valued at $250M",
+                    "link": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/"
+                },
+                {
+                    "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
+                    "link": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/"
+                },
+                {
+                    "title": "Meeting note-taker Circleback adds a free tier to attract more customers",
+                    "link": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/"
+                },
+                {
+                    "title": "The US is building barriers around drones and robots, but China has scale to get around them",
+                    "link": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/"
+                },
+                {
+                    "title": "不止AutoResearch！策略与Harness共进化，EvoTrainer跑通自主闭环",
+                    "link": "http://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247722551&idx=1&sn=3f160eef716d526a144bbdc7f6efa31f&chksm=9738845725c132ad45bd379f662f9381f9217bb937b2e6a8660358ded8064d11ed275d15f137&scene=0&xtrack=1#rd"
+                },
+                {
+                    "title": "EMNLP 2026 | ClawBench实测8款Agent：真能完成日常在线任务吗？",
+                    "link": "http://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247722551&idx=2&sn=5a484456bac7ba942aec79f5598bde55&chksm=97b3f66f2d2e4e0ebbdbb8133f947e7a754ef159f8fdf69fb5b202e3b13c1fca543a562bc482&scene=0&xtrack=1#rd"
+                }
+            ]
+        },
+        {
+            "category": "前端开发",
+            "articles": [
+                {
+                    "title": "The Many Faces Of September (2026 Wallpapers Edition)",
+                    "link": "https://smashingmagazine.com/2026/08/desktop-wallpaper-calendars-september-2026/"
                 }
             ]
         },
@@ -26,164 +183,316 @@
             "category": "泛科技",
             "articles": [
                 {
-                    "title": "Haiku R1/beta6 has been released",
-                    "link": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6"
+                    "title": "I turned my security cameras into an automatic bird identification system",
+                    "link": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/"
                 },
                 {
-                    "title": "Coordination Headwind: How Organizations Are Like Slime Molds",
-                    "link": "https://komoroske.com/slime-mold/"
+                    "title": "A walkable ASCII cyberpunk city in one HTML file [video]",
+                    "link": "https://www.youtube.com/watch?v=3YtygAx_C6A"
                 },
                 {
-                    "title": "Running SQLite Apps on Docker and Kubernetes with Litestream",
-                    "link": "https://openrun.dev/blog/litestream/"
+                    "title": "Playa Phone - Comments",
+                    "link": "https://playaphone.com/"
                 },
                 {
-                    "title": "METR and Redwood Offer Holy %^ Postmortem of the HuggingFace Hack",
-                    "link": "https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack/"
+                    "title": "Autonomous (YC F25) Is Hiring Engineers",
+                    "link": "https://news.ycombinator.com/item?id=49514781"
                 },
                 {
-                    "title": "Hacking IKEA Furniture",
-                    "link": "https://greenlightning.eu/diy/hacking-ikea-furniture/"
+                    "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
+                    "link": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/"
                 },
                 {
-                    "title": "Zig: Pointer Stability for ArrayLists",
-                    "link": "https://ziglang.org/devlog/2026/#2026-08-27"
+                    "title": "ravynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source",
+                    "link": "https://ravynos.com/"
                 },
                 {
-                    "title": "European Commission Revives Push for Encryption Backdoors in ProtectEU Strategy",
-                    "link": "https://reclaimthenet.org/eu-protecteu-strategy-encryption-backdoor-law-enforcement"
+                    "title": "ChatGPT Work Tool and Skill Reference",
+                    "link": "https://codex-tool-reference.simonw.chatgpt.site/"
                 },
                 {
-                    "title": "Artie (YC S23) Is Hiring Technical AES",
-                    "link": "https://www.artie.com/careers?ashby_jid=e87b84d2-78b3-41a3-937a-47e83643cdf1"
+                    "title": "I think the military commissary's freezers were hacked",
+                    "link": "https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary"
                 },
                 {
-                    "title": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
-                    "link": "https://github.com/KodeMunkie/sm750hdmifb"
+                    "title": "Show HN: Corporate Mind Games – logic puzzles with a sarcastic corporate theme",
+                    "link": "https://corporatemindgames.com/"
                 },
                 {
-                    "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
-                    "link": "https://www.qubes-os.org/news/2026/08/29/qsb-118/"
+                    "title": "Internet centralization and the original sin of NAT",
+                    "link": "https://dreamstation.systems/personal/ntppost.html"
                 },
                 {
-                    "title": "Omarchy: Any User Process Can Escalate to Root",
-                    "link": "https://0xcc.io/posts/omarchy-root-creds/"
+                    "title": "C++26: Standard Library Hardening Experiments",
+                    "link": "https://www.cppstories.com/2026/hardening-experiments/"
                 },
                 {
-                    "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
-                    "link": "https://arxiv.org/abs/1804.07389"
+                    "title": "Launch HN: Almanac (YC S26) – AI that knows your company",
+                    "link": "https://usealmanac.com/"
                 },
                 {
-                    "title": "Europe's summer drought is so extreme that desertification is a growing threat",
-                    "link": "https://fortune.com/2026/08/29/europe-summer-drought-desertification-threat-rivers-fish/"
+                    "title": "'Stunning' percolation proof solves decades-old puzzle about phase transitions",
+                    "link": "https://www.quantamagazine.org/stunning-percolation-proof-solves-decades-old-puzzle-about-phase-transitions-20260831/"
                 },
                 {
-                    "title": "An implementation of Conway's Game of Life for Windows 3.1x and later",
-                    "link": "https://www.muppetlabs.com/~breadbox/software/windows.html"
+                    "title": "OpenShot 4.0 – Open-source video editor",
+                    "link": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/"
                 },
                 {
-                    "title": "Bug Blindness - Comments",
-                    "link": "https://danluu.com/bug-blind/"
+                    "title": "Breaking Claude Code Opus 5 Auto Mode",
+                    "link": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/"
                 },
                 {
-                    "title": "Automating Immersive Reading",
-                    "link": "https://smoores.dev/post/automating_immersive_reading/"
+                    "title": "Launch HN: Hebbian Robotics (YC S26) – Build scalable robotics data pipelines",
+                    "link": "https://github.com/Hebbian-Robotics/hflow"
                 },
                 {
-                    "title": "Building my own network stack",
-                    "link": "https://blog.lyc8503.net/en/post/dn42-2-dnet/"
+                    "title": "The Snow/Leavis ‘two cultures’ clash",
+                    "link": "https://aeon.co/essays/at-the-heart-of-the-snow-leavis-two-cultures-clash"
                 },
                 {
-                    "title": "Claude Session URL appended to commit messages and PR descriptions by default",
-                    "link": "https://github.com/anthropics/claude-code/issues/66504"
+                    "title": "Konrad Zuse Museum shutting down due to lack of funding",
+                    "link": "https://www.heise.de/en/news/Zuse-Computer-Museum-ZCOM-in-Hoyerswerda-faces-closure-11344513.html"
                 },
                 {
-                    "title": "monty-go: Pure-Go wrapper for Pydantic's Monty Python Interpreter",
-                    "link": "https://github.com/fugue-labs/monty-go"
+                    "title": "Kids These Days - Comments",
+                    "link": "https://smallpotatoes.paulbloom.net/p/kids-these-days"
                 },
                 {
-                    "title": "索尼华纳起诉 Anthropic 侵犯版权",
-                    "link": "https://www.solidot.org/story?sid=85234"
+                    "title": "OpenShot 4.0 释出 - 自由软件视频编辑器项目 OpenShot 释出了 v4.0 版本。主要新特性包括：新色彩视图；新录制视图：将麦克风、屏幕、Web 摄像头和系统音频直接添加到项目...",
+                    "link": "https://www.solidot.org/story?sid=85246"
                 },
                 {
-                    "title": "The Nancy Grace Roman Space Telescope launches to study dark matter and dark energy",
-                    "link": "https://www.theverge.com/science/986544/nancy-grace-roman-space-telescope-launch"
+                    "title": "加州议会通过年龄验证法案，Linux BSD 豁免",
+                    "link": "https://www.solidot.org/story?sid=85245"
                 },
                 {
-                    "title": "Texas Governor Abbott blocks funding for more Flock cameras",
-                    "link": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras"
+                    "title": "Linux 7.3-rc1 释出 - Linus Torvalds 宣布释出 Linux 7.3-rc1，关闭了 7.3 的合并窗口，正式版预计将在十月底释出。Linux 7.3 的主要特性包括：R...",
+                    "link": "https://www.solidot.org/story?sid=85244"
                 },
                 {
-                    "title": "Chess.com launched a poker site and is planning even more classic games",
-                    "link": "https://www.theverge.com/games/986302/chess-poker-expansion-gambit"
+                    "title": "Steam 平台 2003-2013 年的几乎所有游戏泄露",
+                    "link": "https://www.solidot.org/story?sid=85243"
                 },
                 {
-                    "title": "China’s robots race ahead",
-                    "link": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race"
+                    "title": "Google 改变了其搜索结果的展示方式",
+                    "link": "https://www.solidot.org/story?sid=85242"
                 },
                 {
-                    "title": "Two new small, powerful Macs",
-                    "link": "https://www.theverge.com/tech/986280/mac-mini-studio-star-wars-zero-company-wyze-camera"
+                    "title": "植物如何应对高温 - 科学家早就知道，植物叶片表面分布着许多微小的气孔。当温度升高时，这些微小的孔隙会“张嘴”，让水分蒸发，从而带走热量，就像人出汗能降温一样，但气孔这一植物“散热器...",
+                    "link": "https://www.solidot.org/story?sid=85241"
                 },
                 {
-                    "title": "omacom/omarchy - Beautiful, Modern & Opinionated Linux https://omarchy.org Omarchy Omarchy is a b...",
-                    "link": "https://github.com/omacom/omarchy"
+                    "title": "人类何时开始不爱吃昆虫？ - 研究人员借助基因组证据，还原了数千年来人类食用昆虫的模式。研究表明，在欧洲、中亚与东亚地区，吃昆虫可能只是偶然行为；而在热带地区以及尼安德特人中，食虫则更为普遍...",
+                    "link": "https://www.solidot.org/story?sid=85240"
                 },
                 {
-                    "title": "ConardLi/garden-skills",
-                    "link": "https://github.com/ConardLi/garden-skills"
+                    "title": "天文学家可能发现首个没有恒星的星系 - 被称为 Cloud 9 的星系可能是人类发现的第一个没有恒星的“失败”星系。此类星系虽然有大量气体和尘埃，却几乎没有恒星存在。Cloud 9 距离地球 1400...",
+                    "link": "https://www.solidot.org/story?sid=85239"
                 },
                 {
-                    "title": "google/googletest - GoogleTest - Google Testing and Mocking Framework https://google.github.io/googl...",
-                    "link": "https://github.com/google/googletest"
+                    "title": "韩国准备向所有民众提供免费 AI 服务 - 韩国准备向所有民众提供免费 AI 服务 AI for All。该服务计划从下月起进行 beta 测试，计划今年晚些时候推出。服务由韩国两家最大的电信公司以及 K...",
+                    "link": "https://www.solidot.org/story?sid=85238"
                 },
                 {
-                    "title": "Nvidia's $63 billion stock portfolio is a map of its own supply chain",
-                    "link": "https://www.techspot.com/news/113672-nvidia-63-billion-stock-portfolio-map-own-supply.html"
+                    "title": "柏林市遭到黑客攻击和勒索 - 柏林市长 Kai Wegner 表示，本月初黑客入侵了柏林市政府系统，窃取了数据，并提出了勒索要求。他表示政府不会屈服于勒索要求。他没有透露赎金金额。据媒体报道...",
+                    "link": "https://www.solidot.org/story?sid=85237"
                 },
                 {
-                    "title": "Cities are dropping Flock's surveillance cameras at a record pace",
-                    "link": "https://www.techspot.com/news/113668-cities-dropping-flock-surveillance-cameras-record-pace.html"
+                    "title": "Google Maps 在美国将安大略湖更名为美国湖",
+                    "link": "https://www.solidot.org/story?sid=85236"
                 },
                 {
-                    "title": "NASA launched a space telescope on Sunday that will give astronomers a much wider view of the universe",
-                    "link": "https://www.techspot.com/news/113666-nasa-launched-space-telescope-sunday-give-astronomers-much.html"
+                    "title": "NASA 成功发射罗曼太空望远镜 - NASA 的 Nancy Grace Roman 太空望远镜于 8 月 30 日 7:26 使用 SpaceX 重型火箭 Falcon Heavy 从佛罗里达肯...",
+                    "link": "https://www.solidot.org/story?sid=85235"
                 },
                 {
-                    "title": "Fable PC requirements show it can run on an RTX 2060, but you'll need an RTX 5080 for 4K at 60 fps",
-                    "link": "https://www.techspot.com/news/113670-fable-system-requirements.html"
+                    "title": "I went to the loneliest baseball game on Apple Vision Pro",
+                    "link": "https://www.theverge.com/tech/986967/apple-vision-pro-mlb-red-sox-yankees-immersive-game"
                 },
                 {
-                    "title": "Scientists built a battery that charges almost instantly, but there's a catch",
-                    "link": "https://www.techspot.com/news/113657-scientists-build-quantum-battery-charges-quadrillionths-second-can.html"
+                    "title": "Alienware’s budget-friendly QD-OLED is discounted for the first time",
+                    "link": "https://www.theverge.com/gadgets/986901/alienware-qdoled-2726dm-deal-sale"
                 },
                 {
-                    "title": "Author Explores Cybersecurity Risks of Driverless Cars",
-                    "link": "https://www.bloomberg.com/news/videos/2026-08-30/author-explores-cybersecurity-risks-of-driverless-cars-video"
+                    "title": "Car owners want tech they can ignore",
+                    "link": "https://www.theverge.com/news/986721/car-tech-survey-jd-power-smart-ignition"
                 },
                 {
-                    "title": "Google Maps Changes Lake Ontario Label to Lake America in US",
-                    "link": "https://www.bloomberg.com/news/articles/2026-08-30/google-maps-changes-lake-ontario-label-to-lake-america-in-us"
+                    "title": "Phil Schiller is leaving his biggest jobs at Apple",
+                    "link": "https://www.theverge.com/tech/986869/apple-phil-schiller-stepping-down"
                 },
                 {
-                    "title": "John Ternus Management Team; Apple Watch Series 12; Foldable iPhone Apple Pencil",
-                    "link": "https://www.bloomberg.com/news/newsletters/2026-08-30/john-ternus-management-team-apple-watch-series-12-foldable-iphone-apple-pencil-mtfvmdyu"
+                    "title": "Markiplier is now GoPro’s biggest shareholder",
+                    "link": "https://www.theverge.com/tech/986847/markiplier-gopro-investor"
                 },
                 {
-                    "title": "G20 Faces Divide Over Debt, AI and Global Growth",
-                    "link": "https://www.bloomberg.com/news/videos/2026-08-30/g20-faces-divide-over-debt-ai-and-global-growth-video"
+                    "title": "Read Tim Cook&#8217;s final message to Apple staff as CEO",
+                    "link": "https://www.theverge.com/tech/986832/read-tim-cooks-final-message-as-ceo-to-apple-staff"
                 },
                 {
-                    "title": "Nepal Races to Find Missing Amid Threats of Further Flooding",
-                    "link": "https://www.bloomberg.com/news/articles/2026-08-30/nepal-warns-of-more-floods-as-rescue-efforts-risk-disruption"
+                    "title": "Debian won&#8217;t ban AI code from its Linux distribution",
+                    "link": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy"
                 },
                 {
-                    "title": "PetroChina First-Half Profit Rises 22% on Higher Oil Prices",
-                    "link": "https://www.bloomberg.com/news/articles/2026-08-30/petrochina-first-half-profit-rises-22-on-higher-oil-prices"
+                    "title": "Sony’s WH-1000XM5 headphones are back down to their lowest price",
+                    "link": "https://www.theverge.com/gadgets/986647/sony-wh1000xm5-headphones-nintendo-switch-2-matic-sonos-deal-sale"
                 },
                 {
-                    "title": "Aliko Dangote's Daughters Join Succession Plan",
-                    "link": "https://www.bloomberg.com/news/videos/2026-08-30/aliko-dangote-s-daughters-join-succession-plan-video"
+                    "title": "New York governor to 3D-printed gun leader: &#8216;tell Cody I will get ahead of him&#8217;",
+                    "link": "https://www.theverge.com/policy/986733/kathy-hochul-3d-printed-guns-cody-wilson-response"
+                },
+                {
+                    "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
+                    "link": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras"
+                },
+                {
+                    "title": "K-Dense-AI/scientific-agent-skills",
+                    "link": "https://github.com/K-Dense-AI/scientific-agent-skills"
+                },
+                {
+                    "title": "THU-MAIC/OpenMAIC - Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning...",
+                    "link": "https://github.com/THU-MAIC/OpenMAIC"
+                },
+                {
+                    "title": "abi/screenshot-to-code",
+                    "link": "https://github.com/abi/screenshot-to-code"
+                },
+                {
+                    "title": "OpenClaw 2.0 lands with an easier setup and a rebuilt browser app",
+                    "link": "https://www.techspot.com/news/113686-openclaw-20-lands-easier-setup-rebuilt-browser-app.html"
+                },
+                {
+                    "title": "YouTubers \"fix\" melting RTX 5090 power connector by soldering cables directly to PCB",
+                    "link": "https://www.techspot.com/news/113680-youtubers-fix-melting-rtx-5090-power-connector-soldering.html"
+                },
+                {
+                    "title": "Chip manufacturer CXMT asks Pentagon to remove it from list of Chinese military-linked companies",
+                    "link": "https://www.techspot.com/news/113684-chip-manufacturer-cxmt-asks-pentagon-remove-list-chinese.html"
+                },
+                {
+                    "title": "Grand Theft Auto VI could cause a massive workplace productivity crisis",
+                    "link": "https://www.techspot.com/news/113682-grand-theft-auto-vi-could-cause-massive-workplace.html"
+                },
+                {
+                    "title": "A massive Valve leak just exposed 12TB of old Steam data, no hacking required",
+                    "link": "https://www.techspot.com/news/113671-massive-valve-leak-exposed-12tb-old-steam-data.html"
+                },
+                {
+                    "title": "Calibre can now generate custom book covers with AI",
+                    "link": "https://www.techspot.com/downloads/5411-calibre.html"
+                },
+                {
+                    "title": "Windows may finally take no for an answer, adding a permanent opt-out for OneDrive backup nags",
+                    "link": "https://www.techspot.com/news/113679-windows-11-may-finally-take-no-answer-permanent.html"
+                },
+                {
+                    "title": "Apple prototyped and tested a Pencil accessory for its foldable iPhone",
+                    "link": "https://www.techspot.com/news/113681-apple-prototyped-tested-pencil-accessory-foldable-iphone.html"
+                },
+                {
+                    "title": "ICE seeks to purchase up to $2 million in Boston Dynamics Spot robots",
+                    "link": "https://www.techspot.com/news/113676-boston-dynamics-spot-robot-dogs-could-soon-working.html"
+                },
+                {
+                    "title": "Nvidia and Intel supplier Unimicron under investigation over alleged relabeling of Chinese parts",
+                    "link": "https://www.techspot.com/news/113674-taiwan-investigates-major-nvidia-intel-supplier-unimicron-over.html"
+                },
+                {
+                    "title": "Man uses robot vacuum to catch cheating wife, wins $16,000 affair case, then gets jailed for secretly filming her",
+                    "link": "https://www.techspot.com/news/113677-man-uses-robot-vacuum-covertly-record-wife-affair.html"
+                },
+                {
+                    "title": "A federal court just ruled Kalshi's sports markets are basically sports betting",
+                    "link": "https://www.techspot.com/news/113669-federal-appeals-court-rules-kalshi-sports-prediction-markets.html"
+                },
+                {
+                    "title": "Activision posts video showing Call of Duty cheat seller getting served at his home",
+                    "link": "https://www.techspot.com/news/113675-activision-sends-legal-rep-call-duty-cheat-seller.html"
+                },
+                {
+                    "title": "Graphics Card Prices Are Rising Fast (Again), and GeForce Is Taking the Biggest Hit",
+                    "link": "https://www.techspot.com/article/3167-gpu-pricing-q3-2026/"
+                },
+                {
+                    "title": "Apple Says OpenAI Is Destroying Evidence in Trade Secrets Case",
+                    "link": "https://www.bloomberg.com/news/articles/2026-08-31/apple-says-openai-is-destroying-evidence-in-trade-secrets-case"
+                },
+                {
+                    "title": "Uruci of T. Rowe Price Confident Inflation Will Hit 2%",
+                    "link": "https://www.bloomberg.com/news/videos/2026-08-31/uruci-of-t-rowe-price-confident-inflation-will-hit-2-video"
+                },
+                {
+                    "title": "Hollywood Must Learn From Microdramas",
+                    "link": "https://www.bloomberg.com/news/videos/2026-08-31/opinion-hollywood-must-learn-from-microdramas-video"
+                },
+                {
+                    "title": "T. Rowe Price CIO on the AI Trade, Inflation and Yields",
+                    "link": "https://www.bloomberg.com/news/videos/2026-08-31/t-rowe-price-cio-on-the-ai-trade-inflation-and-yields-video"
+                },
+                {
+                    "title": "Radiant Wins $750 Million US Army Nuclear Reactor Deal",
+                    "link": "https://www.bloomberg.com/news/videos/2026-08-31/radiant-wins-750-million-us-army-nuclear-reactor-deal-video"
+                },
+                {
+                    "title": "Anthropic IPO Could Open AI Listings Floodgates: Madrona",
+                    "link": "https://www.bloomberg.com/news/videos/2026-08-31/anthropic-ipo-could-open-ai-listings-floodgates-madrona-video"
+                },
+                {
+                    "title": "Nvidia Deepens Chip Ties With $3.5 Billion MediaTek Bet | Bloomberg Tech 8/31/2026",
+                    "link": "https://www.bloomberg.com/news/videos/2026-08-31/bloomberg-tech-8-31-2026-video"
+                },
+                {
+                    "title": "How Apple’s New CEO Will Shape the iPhone Maker",
+                    "link": "https://www.bloomberg.com/news/videos/2026-08-31/how-apple-s-new-ceo-will-shape-the-iphone-maker-video"
+                },
+                {
+                    "title": "Apollo Funds to Sell Data Center Cooling Firm Kelvion to SLB",
+                    "link": "https://www.bloomberg.com/news/articles/2026-08-31/slb-to-buy-data-center-cooling-firm-kelvion-for-3-4-billion"
+                },
+                {
+                    "title": "Forrester CEO Sizes Up the AI Boom",
+                    "link": "https://www.bloomberg.com/news/videos/2026-08-31/forrester-ceo-sizes-up-the-ai-boom-video"
+                },
+                {
+                    "title": "AI Billionaire-Backed Group Launches Pro-Data Center Ad Blitz",
+                    "link": "https://www.bloomberg.com/news/articles/2026-08-31/ai-billionaire-backed-group-launches-pro-data-center-ad-blitz"
+                },
+                {
+                    "title": "AI Adoption Is Finally Showing Up in Fundamentals",
+                    "link": "https://www.bloomberg.com/news/videos/2026-08-31/ai-adoption-is-finally-showing-up-in-fundamentals-video"
+                },
+                {
+                    "title": "An Exclusive Interview with Jensen Huang on Nvidia’s AI Future | Open Interest 8/31/2026",
+                    "link": "https://www.bloomberg.com/news/videos/2026-08-31/open-interest-8-31-2026-video"
+                },
+                {
+                    "title": "Anthropic’s Mega-IPO Plan Looms Over Packed US Listing Calendar",
+                    "link": "https://www.bloomberg.com/news/videos/2026-08-31/anthropic-s-mega-ipo-looms-over-packed-listing-calendar-video"
+                },
+                {
+                    "title": "Apple’s Phil Schiller Steps Down from Running App Store and Product Events",
+                    "link": "https://www.bloomberg.com/news/articles/2026-08-31/apple-s-phil-schiller-steps-down-from-running-app-store-and-product-events"
+                },
+                {
+                    "title": "Nvidia Makes $3.5 Billion Bet on MediaTek",
+                    "link": "https://www.bloomberg.com/news/videos/2026-08-31/nvidia-makes-3-5-billion-bet-on-mediatek-video"
+                },
+                {
+                    "title": "Nvidia to Invest $3.5 Billion in Chipmaker MediaTek",
+                    "link": "https://www.bloomberg.com/news/articles/2026-08-31/nvidia-to-invest-3-5-billion-in-chipmaker-mediatek"
+                },
+                {
+                    "title": "Prosus’ Brazil Unit Files Complaint Against Chinese Rival",
+                    "link": "https://www.bloomberg.com/news/articles/2026-08-31/brazil-s-top-delivery-app-files-complaint-against-chinese-rival"
+                },
+                {
+                    "title": "AI Cuts Newell Marketing Costs 80%",
+                    "link": "https://www.bloomberg.com/news/videos/2026-08-31/ai-cuts-newell-marketing-costs-80-video"
+                },
+                {
+                    "title": "Apple’s Cook Says He ‘Will Miss This Work’ in Final Memo as CEO",
+                    "link": "https://www.bloomberg.com/news/articles/2026-08-31/apple-s-cook-says-he-will-miss-this-work-as-he-leaves-ceo-role"
                 }
             ]
         },
@@ -191,88 +500,252 @@
             "category": "理财投资",
             "articles": [
                 {
-                    "title": "快递行业研究",
-                    "link": "http://xueqiu.com/9201106692/407318013"
+                    "title": "随想346 进一步控制仓位",
+                    "link": "http://xueqiu.com/1438190065/407338073"
                 },
                 {
-                    "title": "HARMONi-2 OS重测：对照臂低估后，HR 0.73还能兑现吗？（白话文版）",
-                    "link": "http://xueqiu.com/2338012098/407290391"
+                    "title": "市赚率和盈利调节市净率，它俩到底有什么异同之处",
+                    "link": "http://xueqiu.com/1006269237/407277851"
                 },
                 {
-                    "title": "英伟达70%营收增长指引意味着什么",
-                    "link": "http://xueqiu.com/7977283243/407294371"
+                    "title": "白酒行业大环境及对白酒投资的观点（散户乙2026.08.30）",
+                    "link": "http://xueqiu.com/6452929041/407318833"
                 },
                 {
-                    "title": "对长鑫LPDDR6首发量产的思考",
-                    "link": "http://xueqiu.com/5332385101/407276357"
+                    "title": "业绩增长背后，五粮液切换了增长方式",
+                    "link": "http://xueqiu.com/9210717241/407334402"
                 },
                 {
-                    "title": "从“高周转”到“现房时代”：房地产底层逻辑的彻底重构",
-                    "link": "http://xueqiu.com/7271353740/407248742"
+                    "title": "碳酸锂新一轮景气周期及未来中长期价格中枢展望",
+                    "link": "http://xueqiu.com/7895717506/407259078"
                 },
                 {
-                    "title": "AI企业端应用现状：百无一用穷翰林，草台班子数据库",
-                    "link": "http://xueqiu.com/4381703788/407254217"
+                    "title": "消费的春天不远了",
+                    "link": "http://xueqiu.com/3349472836/407334086"
                 },
                 {
-                    "title": "投资中最简单的事",
-                    "link": "http://xueqiu.com/8801393218/407276441"
+                    "title": "（周记347）50%止盈一笔丨简聊万华化学、乖宝宠物丨一组对比图片",
+                    "link": "http://xueqiu.com/1643044849/407338777"
                 },
                 {
-                    "title": "本周：我们所处的时代",
-                    "link": "http://xueqiu.com/2874741935/407276729"
+                    "title": "对AI需求、基建与增长的思考",
+                    "link": "http://xueqiu.com/5332385101/407336641"
                 },
                 {
-                    "title": "下周重磅日程：中国PMI与美国非农，G20会议，特斯拉Cybercab，博通、智谱财报",
-                    "link": "https://wallstreetcn.com/articles/3780528"
+                    "title": "沃什鹰派发言后，特朗普：“加息”是荒谬的，沃什会做他必须做的事",
+                    "link": "https://wallstreetcn.com/articles/3780764"
                 },
                 {
-                    "title": "杰克逊霍尔现裂痕：美国卖欧元买日元未打招呼，欧洲央行忧美元互换额度\"一夜消失\"",
-                    "link": "https://wallstreetcn.com/articles/3780663"
+                    "title": "美元连跌两月，美国财政部回购逼退投机多头，沃什鹰派仅换来一日反弹",
+                    "link": "https://wallstreetcn.com/articles/3780763"
                 },
                 {
-                    "title": "追随三星，台积电所有制程，涨价10~15%？",
-                    "link": "https://wallstreetcn.com/articles/3780662"
+                    "title": "新兴市场股市迎来2004年以来最强八月，美元贬值交易助推资金转向",
+                    "link": "https://wallstreetcn.com/articles/3780759"
                 },
                 {
-                    "title": "史上最强厄尔尼诺逼近？巴克莱：棕榈油、橡胶、咖啡或在18个月内上涨30%-40%",
-                    "link": "https://wallstreetcn.com/articles/3780661"
+                    "title": "库克卸任苹果CEO：致全员信告别15年掌舵岁月，称将怀念这份工作",
+                    "link": "https://wallstreetcn.com/articles/3780762"
                 },
                 {
-                    "title": "顶尖风投a16z：顶尖人才涌向AI基建，基础设施设计将“推倒重来”",
-                    "link": "https://wallstreetcn.com/articles/3780656"
+                    "title": "10年期美债收益率创近20个月新高，沃什放鹰叠加油价反弹，加息预期再重估",
+                    "link": "https://wallstreetcn.com/articles/3780761"
                 },
                 {
-                    "title": "美银Hartnett：逆向投资者正静待两大信号，随时准备转向避险模式",
-                    "link": "https://wallstreetcn.com/articles/3780651"
+                    "title": "伊朗喊话美国重返停火备忘录，万斯称特朗普发轰炸哈尔克岛视频在向伊“传递信息”",
+                    "link": "https://wallstreetcn.com/articles/3780760"
                 },
                 {
-                    "title": "八月惊涛：贝森特出手干预，政策底牌悄然揭开",
-                    "link": "https://wallstreetcn.com/articles/3780650"
+                    "title": "农产品创十四年最大单月涨幅：战争叠加厄尔尼诺，食品通胀担忧升温",
+                    "link": "https://wallstreetcn.com/articles/3780758"
                 },
                 {
-                    "title": "克鲁格曼：沃什“没说的”比“说了的”更重要",
-                    "link": "https://wallstreetcn.com/articles/3780649"
+                    "title": "Wrightson：美国长期国债回购规模或于本周四前确认",
+                    "link": "https://wallstreetcn.com/articles/3780757"
                 },
                 {
-                    "title": "原油\"回来了\"，成品油\"回不来\"，全球炼油缺口正在扩大",
-                    "link": "https://wallstreetcn.com/articles/3780647"
+                    "title": "特斯拉、英伟达领涨“七巨头”， 科技股内部分化",
+                    "link": "https://wallstreetcn.com/articles/3780756"
                 },
                 {
-                    "title": "马斯克解决发电瓶颈！SpaceX要自产“燃气轮机叶片”",
-                    "link": "https://wallstreetcn.com/articles/3780646"
+                    "title": "ChatGPT、Reddit、Roblox被纳入欧盟“超级平台”监管，违规最高罚全球营收6%",
+                    "link": "https://wallstreetcn.com/articles/3780728"
                 },
                 {
-                    "title": "强制“5天模拟交易”！为了“降温”杠杆ETF，韩国“花样百出”",
-                    "link": "https://wallstreetcn.com/articles/3780644"
+                    "title": "成品油涨幅远超原油：高盛把美国柴油利润预期上调逾一倍",
+                    "link": "https://wallstreetcn.com/articles/3780721"
                 },
                 {
-                    "title": "中选之后，“特朗普交易”要反噬了？ - 过去一年，跟随特朗普政府入股上市公司的投资者赚得盆满钵满。但随着中期选举临近、民主党有望夺回国会至少一院，这场由政府背书驱动的股价盛宴正面临多重风险—— 诉讼、...",
-                    "link": "https://wallstreetcn.com/articles/3780643"
+                    "title": "九月，标普500将迎“最差月份”：AI板块疲态未消，分析师转向谨慎",
+                    "link": "https://wallstreetcn.com/articles/3780753"
                 },
                 {
-                    "title": "杰克逊霍尔大会结束了，除了沃什“放鹰”，还有这些要点",
-                    "link": "https://wallstreetcn.com/articles/3780642"
+                    "title": "Anthropic超级IPO在即，美国IPO市场掀起“抢跑潮”",
+                    "link": "https://wallstreetcn.com/articles/3780749"
+                },
+                {
+                    "title": "AMD、思科联手沙特HUMAIN：AI算力基础设施正式上线，2030年目标1GW",
+                    "link": "https://wallstreetcn.com/articles/3780750"
+                },
+                {
+                    "title": "营收站上20亿元后，地平线等待“大众们”起量",
+                    "link": "https://wallstreetcn.com/articles/3780748"
+                },
+                {
+                    "title": "沃什鹰派发言提振加息预期，美股下跌，10年期美债收益率创2025年1月以来新高，中东局势升温油价急涨",
+                    "link": "https://wallstreetcn.com/articles/3780702"
+                },
+                {
+                    "title": "英伟达拟斥资35亿美元入股联发科，进一步扩张AI芯片生态",
+                    "link": "https://wallstreetcn.com/articles/3780746"
+                },
+                {
+                    "title": "ChatGPT广告业务年化营收破10亿美元，OpenAI再添变现引擎",
+                    "link": "https://wallstreetcn.com/articles/3780744"
+                },
+                {
+                    "title": "霍尔木兹局势再升级：超级油轮疑遭水雷袭击，特朗普威胁“狠狠打击”，布油突破91美元关口",
+                    "link": "https://wallstreetcn.com/articles/3780742"
+                },
+                {
+                    "title": "营收增76%，Momenta离盈亏平衡还有多远？",
+                    "link": "https://wallstreetcn.com/articles/3780741"
+                },
+                {
+                    "title": "印度二季度GDP增长7.8%超预期：制造业与投资强劲，信贷增速创十年来新高",
+                    "link": "https://wallstreetcn.com/articles/3780739"
+                },
+                {
+                    "title": "负债降本难抵资产收益压力 兰州银行上半年净利下行8.95%",
+                    "link": "https://wallstreetcn.com/articles/3780738"
+                },
+                {
+                    "title": "美债是挑战，欧债是危机——下一个主权债务风暴或在欧洲",
+                    "link": "https://wallstreetcn.com/articles/3780735"
+                },
+                {
+                    "title": "战争冲击财政，沙特寻求至少80亿美元贷款",
+                    "link": "https://wallstreetcn.com/articles/3780730"
+                },
+                {
+                    "title": "Kimi向微软、亚马逊、谷歌要30%分成，开源模型开始“海外收租”了",
+                    "link": "https://wallstreetcn.com/articles/3780733"
+                },
+                {
+                    "title": "云端商业化提速，智谱上半年营收同比增近400%，开放平台及API收入暴增2736%｜财报见闻",
+                    "link": "https://wallstreetcn.com/articles/3780732"
+                },
+                {
+                    "title": "华为上半年营收同比增10%至4678亿，归母净利234亿，研发投入超1200亿｜财报见闻",
+                    "link": "https://wallstreetcn.com/articles/3780724"
+                },
+                {
+                    "title": "沪指低开高走收涨0.9%，液冷服务器、传媒双线爆发，港股AI大模型股午后大涨、MINIMAX飙升17%",
+                    "link": "https://wallstreetcn.com/articles/3780681"
+                },
+                {
+                    "title": "港股IPO敏感时刻，星宇股份卷入风波：拿就业扶持，解约应届生！",
+                    "link": "https://wallstreetcn.com/articles/3780723"
+                },
+                {
+                    "title": "高盛的“AI实战”：顶级投行如何探索Agent的产品化",
+                    "link": "https://wallstreetcn.com/articles/3780549"
+                },
+                {
+                    "title": "软银旗下数据中心SB Energy为锁定OpenAI租户，授予估值55亿美元认股权证",
+                    "link": "https://wallstreetcn.com/articles/3780715"
+                },
+                {
+                    "title": "韩日芯片合作升温，SK海力士研究在日本合资建存储芯片厂",
+                    "link": "https://wallstreetcn.com/articles/3780720"
+                },
+                {
+                    "title": "为降低HBM成本，SK海力士被曝评估英特尔代工方案",
+                    "link": "https://wallstreetcn.com/articles/3780711"
+                },
+                {
+                    "title": "博通财报在即，摩根大通坚定看好：市场严重低估AI业务增长，谷歌TPU“失宠”担忧过头",
+                    "link": "https://wallstreetcn.com/articles/3780714"
+                },
+                {
+                    "title": "沃什讲话推高加息预期，债券投资者仍不信美联储会行动",
+                    "link": "https://wallstreetcn.com/articles/3780699"
+                },
+                {
+                    "title": "高盛交易台：黄金上涨可能放缓，但\"货币贬值交易\"远未结束",
+                    "link": "https://wallstreetcn.com/articles/3780700"
+                },
+                {
+                    "title": "极端高温重创欧洲经济：死亡人数超3.5万，葡萄歉收、工厂减产，GDP增速或被拖累0.2个百分点",
+                    "link": "https://wallstreetcn.com/articles/3780693"
+                },
+                {
+                    "title": "传媒板块大涨！首部AI长剧上星，芒果TV押注AIGC内容能否跑通工业化路径",
+                    "link": "https://wallstreetcn.com/articles/3780697"
+                },
+                {
+                    "title": "关税退款叠加AI热潮，美国企业利润创五年新高",
+                    "link": "https://wallstreetcn.com/articles/3780686"
+                },
+                {
+                    "title": "游艇、私宴、家族信托……小银行正在悄悄拿下“县域富豪”",
+                    "link": "https://wallstreetcn.com/articles/3780690"
+                },
+                {
+                    "title": "曾经的常胜将军失灵：华尔街动量交易的骤然瓦解",
+                    "link": "https://wallstreetcn.com/articles/3780687"
+                },
+                {
+                    "title": "光向芯片靠拢：NPO与CPO重塑AI算力互联格局，产业链价值加速重分配",
+                    "link": "https://wallstreetcn.com/articles/3780683"
+                },
+                {
+                    "title": "中国8月制造业PMI回升至49.8，高技术制造业持续扩张，非制造业PMI持稳于49",
+                    "link": "https://wallstreetcn.com/articles/3780682"
+                },
+                {
+                    "title": "高盛看好混元Hy4：编码与Agent能力显著提升，“产品+模型闭环”成腾讯AI差异化关键",
+                    "link": "https://wallstreetcn.com/articles/3780679"
+                },
+                {
+                    "title": "这一轮黄金上涨，投资者比年初更谨慎了 - 黄金8月累计上涨约10%，有望创下今年1月以来最大单月涨幅。但与年初那轮狂热相比，这一次的衍生品市场明显更为冷静——据彭博最新报道，投资者不再一味买入看涨期权，...",
+                    "link": "https://wallstreetcn.com/articles/3780676"
+                },
+                {
+                    "title": "新王登基！苹果的“头号任务”：AI - John Ternus于9月1日正式接任苹果首席执行官一职，成为继乔布斯、库克之后执掌这家全球市值最高科技公司的第三位CEO。据彭博最新报道分析，Ternus面...",
+                    "link": "https://wallstreetcn.com/articles/3780677"
+                },
+                {
+                    "title": "AI成功带来通缩、AI失败转向安全！阿波罗首席经济学家：无论何种情况，美债收益率在2027年都会下行",
+                    "link": "https://wallstreetcn.com/articles/3780671"
+                },
+                {
+                    "title": "Salesforce为例，AI改变软件“定价模式”",
+                    "link": "https://wallstreetcn.com/articles/3780678"
+                },
+                {
+                    "title": "大宗商品相对美国“从未如此便宜”！华尔街“正在达成共识”：硬资产“挤压”",
+                    "link": "https://wallstreetcn.com/articles/3780674"
+                },
+                {
+                    "title": "沃什“放鹰”后，市场聚焦“加息”，大摩：更可能缩表",
+                    "link": "https://wallstreetcn.com/articles/3780673"
+                },
+                {
+                    "title": "美伊开战以来，发达国家主权债务成本飙升，G7已“承担”160亿美元",
+                    "link": "https://wallstreetcn.com/articles/3780672"
+                },
+                {
+                    "title": "日元再破160！贝森特发声：日元“已得到控制”，日本央行“将做正确的事”，“安倍经济学”已走到尽头",
+                    "link": "https://wallstreetcn.com/articles/3780669"
+                },
+                {
+                    "title": "一个多月来首次！美国空袭伊朗拉腊克岛，油价应声走高",
+                    "link": "https://wallstreetcn.com/articles/3780670"
+                },
+                {
+                    "title": "美国“明抢”委内瑞拉油田，五角大楼要“占股35%”，媒体评价“重现殖民主义历史”",
+                    "link": "https://wallstreetcn.com/articles/3780668"
                 }
             ]
         },
@@ -280,108 +753,132 @@
             "category": "新闻热点",
             "articles": [
                 {
-                    "title": "正泰电器递表港交所，开启国际化新征程 - 8月28日，正泰电器正式递表港交所，拟“A+H”上市，搭建双资本平台，开启国际化新征程。据了解，正泰电器2026年上半年实现营业收入380.64亿元，同比增长2...",
-                    "link": "https://36kr.com/newsflashes/3961874026659207?f=rss"
+                    "title": "最前线｜本地大模型 StartLux-27B 通过 MCP-Universe 测评：综合第二，多项专项第一",
+                    "link": "https://36kr.com/p/3963345222147335?f=rss"
                 },
                 {
-                    "title": "沐曦股份：上半年营收超过13亿元并实现扭亏，GPU产品出货量提升带动业绩持续增长",
-                    "link": "https://36kr.com/newsflashes/3961845303065993?f=rss"
+                    "title": "第16期｜新锐项目观察：10个正在快速冒头的优质标的",
+                    "link": "https://36kr.com/p/3963287670766729?f=rss"
                 },
                 {
-                    "title": "中国国航：2026年半年度净亏损22.86亿元",
-                    "link": "https://36kr.com/newsflashes/3961818579254405?f=rss"
+                    "title": "超千万元天使轮融资落定！ 深圳神奕科技有限公司：AI融合BCI，让脑机智能普惠大众",
+                    "link": "https://36kr.com/p/3963142866369923?f=rss"
                 },
                 {
-                    "title": "东航物流：上半年净利润14.18亿元 同比增长10.05%",
-                    "link": "https://36kr.com/newsflashes/3961783683185795?f=rss"
+                    "title": "36氪首发｜中科大团队做太空智能计算平台获超亿元融资，博华、经纬、高瓴等联合押注",
+                    "link": "https://36kr.com/p/3958987031133568?f=rss"
                 },
                 {
-                    "title": "三一重工：上半年净利润56.9亿元 同比增长9.13%",
-                    "link": "https://36kr.com/newsflashes/3961782762487177?f=rss"
+                    "title": "*ST萃华：无法在法定期限内披露半年报，9月1日起停牌",
+                    "link": "https://36kr.com/newsflashes/3963439771786498?f=rss"
                 },
                 {
-                    "title": "中国动力：2026年半年度净利润同比增长42.74%",
-                    "link": "https://36kr.com/newsflashes/3961777366449541?f=rss"
+                    "title": "LG能源解决方案与Smackover Lithium签订多年期美国产碳酸锂供应协议",
+                    "link": "https://36kr.com/newsflashes/3963434474151173?f=rss"
                 },
                 {
-                    "title": "上海电气：上半年归母净利润9.7亿元，同比增长18.2%",
-                    "link": "https://36kr.com/newsflashes/3961774959279497?f=rss"
+                    "title": "热门中概股美股盘前多数下跌，名创优品跌超8%",
+                    "link": "https://36kr.com/newsflashes/3963432171969794?f=rss"
                 },
                 {
-                    "title": "赤峰黄金：2026年半年度净利润17.32亿元，同比增长56.5%",
-                    "link": "https://36kr.com/newsflashes/3961776471915909?f=rss"
+                    "title": "美股大型科技股盘前多数下跌，微软跌超1%",
+                    "link": "https://36kr.com/newsflashes/3963430338370816?f=rss"
                 },
                 {
-                    "title": "中信证券：AI在Q2集中体现，而能化接下来可能逐步升温",
-                    "link": "https://36kr.com/newsflashes/3961771463867779?f=rss"
+                    "title": "中国建筑：下属子公司投资上海市普陀区房地产开发项目",
+                    "link": "https://36kr.com/newsflashes/3963423171337737?f=rss"
                 },
                 {
-                    "title": "中国石油：聘任龚真直为副总裁 - 中国石油8月30日公告，公司于2026年8月28日召开第十届董事会第二次会议，审议并通过了《关于聘任公司副总裁的议案》，聘任龚真直担任公司副总裁，任期与第十届董...",
-                    "link": "https://36kr.com/newsflashes/3961746700270984?f=rss"
+                    "title": "英伟达拟向芯片制造商联发科投资35亿美元",
+                    "link": "https://36kr.com/newsflashes/3963419566497029?f=rss"
                 },
                 {
-                    "title": "订单排到年底，千亿液冷赛道加速升温 - 全球AI硬件功耗持续攀升，传统风冷散热瓶颈凸显。随着新建智算中心加速落地、传统机房风冷改液冷需求集中释放，液冷产业迎来爆发增长期，多家液冷企业订单排至年底。据了...",
-                    "link": "https://36kr.com/newsflashes/3961745130126720?f=rss"
+                    "title": "陕国投A：拟2.11亿元受让开源证券1.0371%股权",
+                    "link": "https://36kr.com/newsflashes/3963416269708801?f=rss"
                 },
                 {
-                    "title": "天风证券：2026年半年度净利润同比增长549%",
-                    "link": "https://36kr.com/newsflashes/3961743066889352?f=rss"
+                    "title": "珠海中富：拟转让杭州中富100%股权 - 36氪获悉，珠海中富公告，公司拟向苏州可得制冷科技有限公司转让持有的杭州中富容器有限公司（简称“杭州中富”）100%股权。如本次交易能顺利完成，公司将不再持有杭...",
+                    "link": "https://36kr.com/newsflashes/3963412699979266?f=rss"
                 },
                 {
-                    "title": "中国石油：上半年净利润同比增长22% - 36氪获悉，中国石油发布2026年半年度报告，实现营业收入15274.91亿元，同比增长5.3%；归属于母公司股东净利润1039.36亿元，同比增长22.0%。",
-                    "link": "https://36kr.com/newsflashes/3961741382122880?f=rss"
+                    "title": "卡塔尔一季度GDP同比萎缩7% - 卡塔尔国家规划委员会8月31日表示，受地区地缘政治局势升级以及航运和出口受限影响，2026年第一季度卡塔尔油气产业国内生产总值（GDP）同比下降25.8%，拖累...",
+                    "link": "https://36kr.com/newsflashes/3963407649201409?f=rss"
                 },
                 {
-                    "title": "招商轮船：上半年归母净利润69.6亿元，同比增长227.57%",
-                    "link": "https://36kr.com/newsflashes/3961735691680897?f=rss"
+                    "title": "今年上半年，超500个快消品牌在天猫成交破亿",
+                    "link": "https://36kr.com/newsflashes/3963402898251269?f=rss"
                 },
                 {
-                    "title": "山西汾酒：2026年上半年营收209.35亿元 同比降12.32%",
-                    "link": "https://36kr.com/newsflashes/3961733973949829?f=rss"
+                    "title": "鑫宏业：股东杨宇伟拟减持公司不超2.99%股份",
+                    "link": "https://36kr.com/newsflashes/3963401936788996?f=rss"
                 },
                 {
-                    "title": "中国黄金：上半年归母净利润2.79亿元，同比下降12.35%",
-                    "link": "https://36kr.com/newsflashes/3961730911763587?f=rss"
+                    "title": "Stellantis任命Belloni为菲亚特、阿巴斯和蓝旗亚品牌CEO",
+                    "link": "https://36kr.com/newsflashes/3963394513477129?f=rss"
                 },
                 {
-                    "title": "京沪高铁：上半年归母净利润67.71亿元，同比增长7.21%",
-                    "link": "https://36kr.com/newsflashes/3961730033778048?f=rss"
+                    "title": "加密基金单周获32亿美元净流入，创近十月新高",
+                    "link": "https://36kr.com/newsflashes/3963392445209865?f=rss"
                 },
                 {
-                    "title": "光明乳业：上半年归母净利润2.51亿元，同比增长15.34%",
-                    "link": "https://36kr.com/newsflashes/3961728172883330?f=rss"
+                    "title": "德国8月欧盟调和CPI同比上涨2.9% - 根据德国联邦统计局发布的数据显示，德国8月初步欧盟调和CPI同比上涨2.9%，预期为上涨3.1%；8月初步欧盟调和CPI环比上涨0.2%，预期为上涨0.3%。（...",
+                    "link": "https://36kr.com/newsflashes/3963388387270145?f=rss"
                 },
                 {
-                    "title": "隆基绿能：上半年净亏损36.84亿元 - 36氪获悉，隆基绿能发布2026年半年度报告，实现营业收入270.45亿元，同比下降17.58%；归属于上市公司股东的净利润为亏损36.84亿元。小财注：公司Q...",
-                    "link": "https://36kr.com/newsflashes/3961726106844553?f=rss"
+                    "title": "鱼跃医疗：全资子公司拟不超1亿港元认购基金份额",
+                    "link": "https://36kr.com/newsflashes/3963385733012739?f=rss"
                 },
                 {
-                    "title": "中国船舶：上半年归母净利润99.54亿元，同比增长163.51%",
-                    "link": "https://36kr.com/newsflashes/3961721775717513?f=rss"
+                    "title": "香山股份：筹划发行股份及支付现金方式购买资产并募集配套资金事项，股票停牌",
+                    "link": "https://36kr.com/newsflashes/3963377036221960?f=rss"
                 },
                 {
-                    "title": "中國審查西藏口岸遭洪災衝擊畫面，當地災民情況我們所知甚少",
-                    "link": "https://www.bbc.com/zhongwen/articles/cnvl38dyyq0o/trad?at_medium=RSS&at_campaign=rss"
+                    "title": "华纳药厂：洛索洛芬钠贴剂获得药品注册证书",
+                    "link": "https://36kr.com/newsflashes/3963368162614786?f=rss"
                 },
                 {
-                    "title": "中國：氣候變暖導致尼泊爾—西藏泥石流災難",
-                    "link": "https://www.bbc.com/zhongwen/articles/c0ren4z009qo/trad?at_medium=RSS&at_campaign=rss"
+                    "title": "九州通：拟发行优先股募集资金总额不超过28亿元",
+                    "link": "https://36kr.com/newsflashes/3963365771288068?f=rss"
                 },
                 {
-                    "title": "尼泊爾洪災：最新衛星圖像揭示村莊災情的嚴重程度",
-                    "link": "https://www.bbc.com/zhongwen/articles/cx2zp5q4gnjo/trad?at_medium=RSS&at_campaign=rss"
+                    "title": "海格通信：拟公开挂牌转让河南经纬20%股权",
+                    "link": "https://36kr.com/newsflashes/3963361020321024?f=rss"
                 },
                 {
-                    "title": "Dolly Parton的父親生前不識字，於是她給數百萬孩子寄上書本",
-                    "link": "https://www.bbc.com/zhongwen/articles/c5ydw7pv2nzo/trad?at_medium=RSS&at_campaign=rss"
+                    "title": "中熔电气：拟发行可转债募资不超8亿元 - 36氪获悉，中熔电气披露，公司拟向不特定对象发行可转债募资不超过8亿元，扣除发行费用后用于赛诺克新能源科技园项目、电路保护元器件系列产品扩产建设项目、补充流动资...",
+                    "link": "https://36kr.com/newsflashes/3963357368458757?f=rss"
                 },
                 {
-                    "title": "澳洲每年上演全球最大型烏賊交配活動——今年盛況不再",
-                    "link": "https://www.bbc.com/zhongwen/articles/c62ewvv46v6o/trad?at_medium=RSS&at_campaign=rss"
+                    "title": "洪水來襲前幾分鐘，這位尼泊爾校長及時疏散了900名學生",
+                    "link": "https://www.bbc.com/zhongwen/articles/cdr7yd0zyg1o/trad?at_medium=RSS&at_campaign=rss"
                 },
                 {
-                    "title": "「烤過頭」了嗎？機械人薄餅製造商為何難逃失敗命運",
-                    "link": "https://www.bbc.com/zhongwen/articles/c20ln8nrzn4o/trad?at_medium=RSS&at_campaign=rss"
+                    "title": "塔吉克斯坦年輕人之間緣何興起「漢語熱」？",
+                    "link": "https://www.bbc.com/zhongwen/articles/c5yj5eg69jjo/trad?at_medium=RSS&at_campaign=rss"
+                },
+                {
+                    "title": "為何台灣公視屢陷預算爭議？ - 作為開播28年的公共媒體，為何台灣公視反覆陷入預算爭議？預算及董事會人事為何多次成為台灣朝野政黨交鋒的焦點？",
+                    "link": "https://www.bbc.com/zhongwen/articles/c4gjd85e03xo/trad?at_medium=RSS&at_campaign=rss"
+                },
+                {
+                    "title": "美國NASA全新超強望遠鏡將改寫我們對宇宙的理解",
+                    "link": "https://www.bbc.com/zhongwen/articles/cqlwd2w1vnlo/trad?at_medium=RSS&at_campaign=rss"
+                },
+                {
+                    "title": "西方官員：俄羅斯加大強硬言論，但仍避免與北約爆發戰爭",
+                    "link": "https://www.bbc.com/zhongwen/articles/cy8zyg119dyo/trad?at_medium=RSS&at_campaign=rss"
+                },
+                {
+                    "title": "韓國統一教領袖韓鶴子涉貪罪成，判囚兩年 - 法院表示，韓鶴子曾向前總統尹錫悅的妻子金建希，送贈兩個Chanel手袋及一條鑽石項鏈，總值8,000萬韓圜（57,900美元；42,500英鎊）。",
+                    "link": "https://www.bbc.com/zhongwen/articles/c980y406995o/trad?at_medium=RSS&at_campaign=rss"
+                },
+                {
+                    "title": "她放下演藝事業，回愛丁堡拯救家裏的中餐館",
+                    "link": "https://www.bbc.com/zhongwen/articles/czjzdlvly70o/trad?at_medium=RSS&at_campaign=rss"
+                },
+                {
+                    "title": "前線報導：尼泊爾洪災逾900人罹難 民眾絕望尋找失蹤親人",
+                    "link": "https://www.bbc.com/zhongwen/articles/cvgy4vd7ny4o/trad?at_medium=RSS&at_campaign=rss"
                 }
             ]
         },
@@ -389,252 +886,308 @@
             "category": "数码产品",
             "articles": [
                 {
-                    "title": "城市漫步指南 | 佛罗伦萨：来自六月的梦幻艺术夏令营",
-                    "link": "https://sspai.com/post/113974"
+                    "title": "本月玩什么｜Big Walk、潜龙谍影 大师合辑 Vol. 2",
+                    "link": "https://sspai.com/post/114043"
                 },
                 {
-                    "title": "古尔曼：苹果 AirPods 5 耳机最早 9 月发布，OLED 版 iPad mini 平板预计 10 月推出",
-                    "link": "https://www.ithome.com/0/996/252.htm"
+                    "title": "派评 | 近期值得关注的 App - >下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀 查看全文",
+                    "link": "https://sspai.com/post/114041"
                 },
                 {
-                    "title": "粉丝自制高清材质包“转正”，CDPR 就《巫师 3：狂猎 — 重制版》与 Halk Hogan 合作",
-                    "link": "https://www.ithome.com/0/996/251.htm"
+                    "title": "家庭饮品 DIY 指南（四）：奶昔、柠檬和茶系列配方",
+                    "link": "https://sspai.com/prime/story/"
                 },
                 {
-                    "title": "上海电信突发大范围断网，官方称经紧急处置服务已陆续恢复",
-                    "link": "https://www.ithome.com/0/996/250.htm"
+                    "title": "屏幕之外，桌面之上：走过十年，明基探索了一束光的更多可能",
+                    "link": "https://sspai.com/post/114027"
                 },
                 {
-                    "title": "苹果与康宁在美国肯塔基州开设创新中心：探索全新玻璃材料，新增数百个岗位",
-                    "link": "https://www.ithome.com/0/996/249.htm"
+                    "title": "全球仅剩三位数的物种，科学家却连一个准数都数不出来",
+                    "link": "https://sspai.com/post/113827"
                 },
                 {
-                    "title": "R 星谈《GTA6》游戏驾驶手感：保留《GTA4》最优秀部分，兼顾 5 代易上手",
-                    "link": "https://www.ithome.com/0/996/248.htm"
+                    "title": "一台 SUV，需要装下年轻人还没发生的生活",
+                    "link": "https://www.ifanr.com/1677553?utm_source=rss&utm_medium=rss&utm_campaign="
                 },
                 {
-                    "title": "古尔曼：苹果 Apple Watch Series 12/Ultra 4 将支持全天候心率监测",
-                    "link": "https://www.ithome.com/0/996/247.htm"
+                    "title": "折叠屏 iPhone 永远不该配手写笔｜硬哲学",
+                    "link": "https://www.ifanr.com/1677413?utm_source=rss&utm_medium=rss&utm_campaign="
                 },
                 {
-                    "title": "消息称苹果曾为折叠屏 iPhone 测试触控笔：可磁吸在手机侧面，但量产机可能无缘",
-                    "link": "https://www.ithome.com/0/996/246.htm"
+                    "title": "500 万人围观，AI 终于造出了「无限泔水机」",
+                    "link": "https://www.ifanr.com/1677378?utm_source=rss&utm_medium=rss&utm_campaign="
                 },
                 {
-                    "title": "创 25 年来最强暑期档纪录：IMAX 中国暑期档票房突破 7.23 亿元，同比增长 39%",
-                    "link": "https://www.ithome.com/0/996/245.htm"
+                    "title": "制糖工厂定制送礼｜拒绝千篇一律，让你的心意真正被记住",
+                    "link": "https://www.ifanr.com/1677398?utm_source=rss&utm_medium=rss&utm_campaign="
                 },
                 {
-                    "title": "顺丰董事长王卫加入极兔董事会，任非执行董事",
-                    "link": "https://www.ithome.com/0/996/244.htm"
+                    "title": "织物座椅、砍掉氛围灯，「丐版」特斯拉 Model 3 登陆香港，定价 20.5 万港元",
+                    "link": "https://www.ifanr.com/1677366?utm_source=rss&utm_medium=rss&utm_campaign="
                 },
                 {
-                    "title": "微软为 SwiftKey 输入法 iOS 版新增液态玻璃效果，用户并不买账",
-                    "link": "https://www.ithome.com/0/996/243.htm"
+                    "title": "早报｜库克明日卸任苹果CEO/长鑫LPDDR6量产,小米首发搭载/官方回应建议取消ETC设备",
+                    "link": "https://www.ifanr.com/1677344?utm_source=rss&utm_medium=rss&utm_campaign="
                 },
                 {
-                    "title": "追觅起诉小红书，案由名誉权纠纷 - IT之家 8 月 30 日消息，法院开庭信息显示，追觅科技（苏州）有限公司因名誉权纠纷，起诉行吟信息科技（上海）有限公司（IT之家注：小红书国内核心运营主体公司...",
-                    "link": "https://www.ithome.com/0/996/242.htm"
+                    "title": "华为、小米、荣耀手机今日集体调价 - IT之家 9 月 1 日消息，据博主 @旺仔百事通 消息，华为 Mate 80 系列和 华为畅享 90 Pro Max 今日（9 月 1 日）进行调价。 华为...",
+                    "link": "https://www.ithome.com/0/996/694.htm"
                 },
                 {
-                    "title": "V社 12TB 游戏开发数据泄露详情：含《传送门 2》早期版本，《半衰期 2：第三章》线索出现",
-                    "link": "https://www.ithome.com/0/996/241.htm"
+                    "title": "苹果 watchOS 27.0 开发者预览版 Beta 8 发布",
+                    "link": "https://www.ithome.com/0/996/693.htm"
                 },
                 {
-                    "title": "特斯拉在中国香港、中国澳门推出更平价版 Model 3：售价下调、配置精简，续航达 572 公里",
-                    "link": "https://www.ithome.com/0/996/240.htm"
+                    "title": "苹果 visionOS 27.0 开发者预览版 Beta 8 发布",
+                    "link": "https://www.ithome.com/0/996/692.htm"
                 },
                 {
-                    "title": "消息称字节跳动豆包大模型 2.2 将推迟发布，原计划 8 月推出",
-                    "link": "https://www.ithome.com/0/996/239.htm"
+                    "title": "苹果 macOS 27.0 开发者预览版 Beta 8 发布",
+                    "link": "https://www.ithome.com/0/996/691.htm"
                 },
                 {
-                    "title": "《神鬼寓言》游戏 PC 版配置要求公布：最低 RTX 2060，推荐 RTX 5060",
-                    "link": "https://www.ithome.com/0/996/237.htm"
+                    "title": "苹果 iOS/iPadOS 27.0 开发者预览版 Beta 8 发布",
+                    "link": "https://www.ithome.com/0/996/690.htm"
                 },
                 {
-                    "title": "网友反馈上海电信发生大面积断网故障，宽带及手机信号均受影响",
-                    "link": "https://www.ithome.com/0/996/235.htm"
+                    "title": "菲尔 · 席勒卸任苹果 App Store 及产品发布会负责人职务",
+                    "link": "https://www.ithome.com/0/996/689.htm"
                 },
                 {
-                    "title": "比亚迪大六座 SUV 腾势 N8L 纯电版将于 9 月份上市，拥有 208L 智能电动前备箱",
-                    "link": "https://www.ithome.com/0/996/234.htm"
+                    "title": "2026 年 8 月全球桌面浏览器排行：Chrome 73.28%、Edge 10.46%、Firefox 5.31%",
+                    "link": "https://www.ithome.com/0/996/687.htm"
                 },
                 {
-                    "title": "卡普空《鬼武者：剑之道》游戏全新预告片公布，9 月 4 日发售",
-                    "link": "https://www.ithome.com/0/996/233.htm"
+                    "title": "2026 年 8 月中国桌面 Windows 份额：Win11 占比 49.16%，环比下降 0.85 个百分点",
+                    "link": "https://www.ithome.com/0/996/686.htm"
                 },
                 {
-                    "title": "消息称索尼 State of Play 游戏发布会即将到来，9 月可能性极大",
-                    "link": "https://www.ithome.com/0/996/232.htm"
+                    "title": "2026 年 8 月全球桌面 Windows 份额：Win11 占比 68.60%，环比下降 0.28 个百分点",
+                    "link": "https://www.ithome.com/0/996/685.htm"
                 },
                 {
-                    "title": "铁路部门回应“复兴号变和谐号致二等座变无座”：动车组突发故障，备用车体席位不对等导致部分旅客未能安排席位",
-                    "link": "https://www.ithome.com/0/996/230.htm"
+                    "title": "库克担任苹果 CEO 最后一天给员工发告别信：将公司交给约翰 · 特努斯让我无比安心",
+                    "link": "https://www.ithome.com/0/996/684.htm"
                 },
                 {
-                    "title": "NASA 罗曼空间望远镜成功发射，将绘制宇宙地图探索暗物质",
-                    "link": "https://www.ithome.com/0/996/229.htm"
+                    "title": "七彩虹 iGame X870E VULCAN W OC 主板发售：超频旗舰，3999 元",
+                    "link": "https://www.ithome.com/0/996/683.htm"
                 },
                 {
-                    "title": "学校可禁止学生带手机入校，重庆市预防未成年人犯罪条例 9 月 1 日起施行",
-                    "link": "https://www.ithome.com/0/996/228.htm"
+                    "title": "福特中国首款出口欧洲等发达市场的纯电动商用车，全新福特 Transit City 在江铃小蓝工厂下线",
+                    "link": "https://www.ithome.com/0/996/681.htm"
                 },
                 {
-                    "title": "联想 ThinkTab 11S 平板上架：天玑 6300、电池 7040mAh，首发 1799 元",
-                    "link": "https://www.ithome.com/0/996/227.htm"
+                    "title": "博通推出 VMware AI 工厂，简化企业私有云 AI 部署",
+                    "link": "https://www.ithome.com/0/996/680.htm"
                 },
                 {
-                    "title": "卡巴斯基发现车载恶意软件，DoFun 安卓车机存在被劫持风险",
-                    "link": "https://www.ithome.com/0/996/226.htm"
+                    "title": "整治 AI 虚假账号，Instagram 推出全新 AI 个人资料标签",
+                    "link": "https://www.ithome.com/0/996/679.htm"
                 },
                 {
-                    "title": "2026 科隆游戏展大奖公布，CDPR、世嘉各揽三奖",
-                    "link": "https://www.ithome.com/0/996/224.htm"
+                    "title": "华硕灵耀 14 骁龙版笔记本首销：骁龙 X 处理器，16GB+512GB 售 6999 元",
+                    "link": "https://www.ithome.com/0/996/673.htm"
                 },
                 {
-                    "title": "消息称小米 14 Pro 手机官方电池升级为 5140mAh，提升 260mAh",
-                    "link": "https://www.ithome.com/0/996/223.htm"
+                    "title": "特斯拉 FSD 即将迎来重大升级：马斯克称“避坑”功能很快上线",
+                    "link": "https://www.ithome.com/0/996/672.htm"
                 },
                 {
-                    "title": "消息称 Meta 正测试数据中心机器人，可完成插拔线缆、重启服务器等运维工作",
-                    "link": "https://www.ithome.com/0/996/222.htm"
+                    "title": "创维推出 G24 GT3 显示器：23.8 英寸 FHD 310Hz FastIPS，首发补贴价 599 元",
+                    "link": "https://www.ithome.com/0/996/671.htm"
                 },
                 {
-                    "title": "传音推出 Tecno Megapad SE 2 平板：9.7 寸 90Hz 屏幕、支持 4G 移动数据",
-                    "link": "https://www.ithome.com/0/996/221.htm"
+                    "title": "消息称长鑫存储开始试产 HBM3E 内存，有望数周内大规模量产",
+                    "link": "https://www.ithome.com/0/996/670.htm"
                 },
                 {
-                    "title": "华为 Mate XT 2 非凡大师三折叠手机核心配置曝光，有望首发麒麟 9050 Pro 处理器",
-                    "link": "https://www.ithome.com/0/996/219.htm"
+                    "title": "比亚迪方程豹熊甜波：方程 S 和方程 S GT 将在 9 月上市",
+                    "link": "https://www.ithome.com/0/996/669.htm"
                 },
                 {
-                    "title": "友望 S20 洗地机 2499 → 699 元新低，推入式基站更方便 + IPX6 级随便冲洗",
-                    "link": "https://www.ithome.com/0/996/176.htm"
+                    "title": "水月雨「月之暗面」 平面磁式头戴式耳机 9 月 2 日发售，19999 元",
+                    "link": "https://www.ithome.com/0/996/668.htm"
                 },
                 {
-                    "title": "巴克莱研究：AI 模型公司每赚 100 美元，约 35 至 40 美元流向三大云巨头",
-                    "link": "https://www.ithome.com/0/996/218.htm"
+                    "title": "腾讯 QQ 鸿蒙版 App 获 9.2.60 正式版升级，好友聊天支持发送闪照",
+                    "link": "https://www.ithome.com/0/996/666.htm"
                 },
                 {
-                    "title": "《红霞岛》总监谈游戏失败：我们被服务型游戏的浪潮带偏了",
-                    "link": "https://www.ithome.com/0/996/217.htm"
+                    "title": "火星地下存在巨大“热异常”：南半球内部温度比北半球高 400℃",
+                    "link": "https://www.ithome.com/0/996/665.htm"
                 },
                 {
-                    "title": "华为鸿蒙座舱 HarmonySpace 暑期版本发布，新增导航 Agent 地址主动记忆等功能",
-                    "link": "https://www.ithome.com/0/996/216.htm"
+                    "title": "微信 2026 年 8 月朋友圈热度谣言公布，含“青岛大学新校徽像旭日旗”“新疆阿勒泰八月就能滑雪”等",
+                    "link": "https://www.ithome.com/0/996/664.htm"
                 },
                 {
-                    "title": "华为 WATCH D3 智能手表参数曝光：屏幕增大至 1.92 英寸，厚度降至 11.4 毫米",
-                    "link": "https://www.ithome.com/0/996/215.htm"
+                    "title": "快手：国家人工智能基金向北京可灵注入现金资本 14 亿元",
+                    "link": "https://www.ithome.com/0/996/663.htm"
                 },
                 {
-                    "title": "中国中车首曝小米澎程系列汽车电驱自带“高铁基因”，主打稳定、高效、耐久",
-                    "link": "https://www.ithome.com/0/996/214.htm"
+                    "title": "技嘉 Brix 系列迷你主机现身官网：锐龙 AI 7 450/AI 5 430 处理器",
+                    "link": "https://www.ithome.com/0/996/662.htm"
                 },
                 {
-                    "title": "东芝 S300 AI 系列机械硬盘开售：可选 8TB、10TB，2949 元起",
-                    "link": "https://www.ithome.com/0/996/213.htm"
+                    "title": "荣耀 MagicOS 11 亮点公布：升级省存储空间、UX 焕新液态玻璃、支持多协议快充",
+                    "link": "https://www.ithome.com/0/996/659.htm"
                 },
                 {
-                    "title": "今年前七个月全国二手车累计交易量 1127.48 万辆，同比增长 0.39%",
-                    "link": "https://www.ithome.com/0/996/211.htm"
+                    "title": "华硕新款 Zenbook A14 笔记本发布：骁龙 X 处理器、8GB 内存起步",
+                    "link": "https://www.ithome.com/0/996/658.htm"
                 },
                 {
-                    "title": "荣耀机器人闪电首次出海，成为马来西亚马拉松首位机器人参赛选手",
-                    "link": "https://www.ithome.com/0/996/203.htm"
+                    "title": "微软 XBOX 确认：《神鬼寓言》主线通关需 15-20 小时",
+                    "link": "https://www.ithome.com/0/996/657.htm"
                 },
                 {
-                    "title": "24 小时订单超 260 万美元，Hugging Face 机器鸭 Microduck 爆单",
-                    "link": "https://www.ithome.com/0/996/199.htm"
+                    "title": "vivo OriginOS 7 系统重构渲染管线和编译框架，渲染速度较上代提升 14%",
+                    "link": "https://www.ithome.com/0/996/656.htm"
                 },
                 {
-                    "title": "原班人马难聚齐，《女神异闻录 4：Revival》游戏将更换英配",
-                    "link": "https://www.ithome.com/0/996/197.htm"
+                    "title": "微信支付 AI 专属卡支持接入 DeepSeek Harness 和 OpenClaw",
+                    "link": "https://www.ithome.com/0/996/655.htm"
                 },
                 {
-                    "title": "乘联分会崔东树：2026 年 7 月中国汽车进口 4.3 万辆，同比下降 13%",
-                    "link": "https://www.ithome.com/0/996/196.htm"
+                    "title": "OpenAI：ChatGPT 广告年化收入运行率已达 10 亿美元",
+                    "link": "https://www.ithome.com/0/996/653.htm"
                 },
                 {
-                    "title": "华为云联合瑞金医院发布瑞智病理大模型 RuiPath 2.0：7B 参数，覆盖 19 个常见癌种",
-                    "link": "https://www.ithome.com/0/996/195.htm"
+                    "title": "沙特 13 岁以上公民和居民可免费使用 Adobe 两项服务 1 年，总价超 40 亿美元",
+                    "link": "https://www.ithome.com/0/996/651.htm"
                 },
                 {
-                    "title": "网传微软 Win11 偷偷后台跑 AI，页面实为权限管理列表",
-                    "link": "https://www.ithome.com/0/996/194.htm"
+                    "title": "三款微软 Xbox 游戏确定将于 9 月关闭在线服务器，部分游戏仍可离线游玩",
+                    "link": "https://www.ithome.com/0/996/650.htm"
                 },
                 {
-                    "title": "中国联通成功开通西藏吉隆口岸国门前沿区域应急基站，同时向移动、电信用户提供网络服务",
-                    "link": "https://www.ithome.com/0/996/192.htm"
+                    "title": "联发科将基于英伟达 NVLink Fusion 为客户开发定制 XPU",
+                    "link": "https://www.ithome.com/0/996/645.htm"
                 },
                 {
-                    "title": "神龙汽车副总经理程军：神龙科技不可能打价格战，也不会做“速成车”",
-                    "link": "https://www.ithome.com/0/996/191.htm"
+                    "title": "智谱披露下一代大模型规划：采用大基座路线，目标发布首日即可支持满规模业务调用",
+                    "link": "https://www.ithome.com/0/996/649.htm"
                 },
                 {
-                    "title": "英国电信行业高管警告：5G 升级太慢，英国可能输掉 AI 竞赛",
-                    "link": "https://www.ithome.com/0/996/190.htm"
+                    "title": "AMD、思科、HUMAIN 合作落地，Instinct MI355X 算力进驻沙特",
+                    "link": "https://www.ithome.com/0/996/648.htm"
                 },
                 {
-                    "title": "特斯拉 Cybercab 车头 RGB 灯带可显示不同颜色，避免乘客上错车",
-                    "link": "https://www.ithome.com/0/996/189.htm"
+                    "title": "索尼 PlayStation 官宣 State of Play 游戏发布会定档 9 月 3 日",
+                    "link": "https://www.ithome.com/0/996/647.htm"
                 },
                 {
-                    "title": "TCL 电子：拟通过实物分派方式实现旗下光伏业务板块独立上市",
-                    "link": "https://www.ithome.com/0/996/187.htm"
+                    "title": "芬兰人工智能超级计算机 LUMI-AI 将采用 AMD 硬件方案，2027H2 部署",
+                    "link": "https://www.ithome.com/0/996/644.htm"
                 },
                 {
-                    "title": "机械革命翼龙 15 Air 2026 笔记本锐龙 7 H 449 版发布：RTX 5060，国补到手价 9999 元",
-                    "link": "https://www.ithome.com/0/996/186.htm"
+                    "title": "莲花 ELETRE / EMEYA 900 GOLD 上市，售价 92.8 万 / 91.8 万元起",
+                    "link": "https://www.ithome.com/0/996/643.htm"
                 },
                 {
-                    "title": "华擎发布 B550M Pro-A WiFi 6E 主板：AMD AM4 平台、8 相供电",
-                    "link": "https://www.ithome.com/0/996/185.htm"
+                    "title": "维咖推出 NUT87 - 双 8K 机械键盘：全铝机身，首发到手价 499 元起",
+                    "link": "https://www.ithome.com/0/996/642.htm"
                 },
                 {
-                    "title": "网警依法查处 2 起涉吉隆泥石流网络谣言案件",
-                    "link": "https://www.ithome.com/0/996/182.htm"
+                    "title": "售 98.8 万元起，莲花 EMIRA 420 Sport“赛道级公路跑车”上市",
+                    "link": "https://www.ithome.com/0/996/640.htm"
                 },
                 {
-                    "title": "特斯拉欧洲入门版 Model 3 更换新轮胎，续航提升 38 公里至 572 公里",
-                    "link": "https://www.ithome.com/0/996/181.htm"
+                    "title": "聚焦 PTCG 卡牌游戏：宝可梦近年首部动画长片电影《Pokémon: Wild Card》确认",
+                    "link": "https://www.ithome.com/0/996/639.htm"
                 },
                 {
-                    "title": "全球仅 3 家能铸：马斯克 SpaceX 突破 AI 供电瓶颈，自产涡轮叶片提前 18 个月投运",
-                    "link": "https://www.ithome.com/0/996/179.htm"
+                    "title": "谷歌 AI 应用 Dreambeans 取消订阅制，开放免费测试",
+                    "link": "https://www.ithome.com/0/996/638.htm"
                 },
                 {
-                    "title": "京沪高铁 2026 年上半年归母净利润 67.71 亿元，同比增长 7.21%",
-                    "link": "https://www.ithome.com/0/996/174.htm"
+                    "title": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
+                    "link": "https://www.ithome.com/0/996/637.htm"
                 },
                 {
-                    "title": "安克创新 2026 年上半年归母净利润 17.02 亿元，同比增长 45.86%",
-                    "link": "https://www.ithome.com/0/996/178.htm"
+                    "title": "限时优惠价 7.68 万元起，极狐贝塔 T1 550km 长续航版上市",
+                    "link": "https://www.ithome.com/0/996/636.htm"
                 },
                 {
-                    "title": "因缺少 MTE 安全功能，GrapheneOS 当前阶段放弃适配谷歌 Pixel 11 系列手机",
-                    "link": "https://www.ithome.com/0/996/177.htm"
+                    "title": "华为悬赏单项最高 100 万元、攻克存储技术难题，7 支科研团队荣获第六届“奥林帕斯奖”",
+                    "link": "https://www.ithome.com/0/996/635.htm"
                 },
                 {
-                    "title": "沐曦股份 2026 年上半年归母净利润 6.12 亿元，同比扭亏为盈",
-                    "link": "https://www.ithome.com/0/996/171.htm"
+                    "title": "“国产 GPU 四小龙”之一：燧原科技科创板 IPO 发行价格定为 142.18 元 / 股",
+                    "link": "https://www.ithome.com/0/996/634.htm"
                 },
                 {
-                    "title": "隆基绿能 2026 年上半年归母亏损 36.84 亿元，亏损同比扩大",
-                    "link": "https://www.ithome.com/0/996/173.htm"
+                    "title": "工业巨头卡特彼勒将 AI 推向真实作业现场，未来五年投入 1 亿美元培训员工",
+                    "link": "https://www.ithome.com/0/996/633.htm"
                 },
                 {
-                    "title": "QCY H6 系列降噪头戴耳机开售，首销 169 元起",
-                    "link": "https://www.ithome.com/0/996/175.htm"
+                    "title": "何刚透露网易云音乐鸿蒙尝鲜内测版 App 由华为、网易共同开发，使用前需升级最新 HarmonyOS",
+                    "link": "https://www.ithome.com/0/996/631.htm"
                 },
                 {
-                    "title": "长光华芯 2026 年上半年归母净利润 3033.78 万元，同比增长 238.04%",
-                    "link": "https://www.ithome.com/0/996/172.htm"
+                    "title": "2026 年 8 月国产 / 进口游戏版号出炉",
+                    "link": "https://www.ithome.com/0/996/630.htm"
                 },
                 {
-                    "title": "NVIDIA 即将告别 Windows 10：最后一款 Game Ready 驱动 10 月发布",
-                    "link": "https://www.appinn.com/nvidia-windows-10-final-game-ready-driver/"
+                    "title": "荣耀 MagicOS 11 系统内测版本官宣今晚增推，第二批升级机型首曝",
+                    "link": "https://www.ithome.com/0/996/629.htm"
+                },
+                {
+                    "title": "芝奇推出 Flare X5X 系列 DDR5 内存，支持 AMD EXPO-ULL 技术",
+                    "link": "https://www.ithome.com/0/996/627.htm"
+                },
+                {
+                    "title": "智谱 2026 年上半年归母亏损 20.71 亿元，同比亏损收窄 12.1%",
+                    "link": "https://www.ithome.com/0/996/626.htm"
+                },
+                {
+                    "title": "网易云音乐官方回应鸿蒙版 App 尝鲜上架，称更多功能还有待完善",
+                    "link": "https://www.ithome.com/0/996/623.htm"
+                },
+                {
+                    "title": "搭载玄戒 O3 的小米平板 9 Pro Max 跑分曝光：GeekBench 单核 3474，多核 13229",
+                    "link": "https://www.ithome.com/0/996/622.htm"
+                },
+                {
+                    "title": "正面和背面看起来不像一个时代，HMD Asha 305 Pro 手机曝光",
+                    "link": "https://www.ithome.com/0/996/612.htm"
+                },
+                {
+                    "title": "国铁集团 2026 年上半年净利润盈利 18.5 亿元，同比增长 19.35%",
+                    "link": "https://www.ithome.com/0/996/610.htm"
+                },
+                {
+                    "title": "欧盟委员会认定 ChatGPT、Reddit、Roblox“超大型”身份，收紧监管",
+                    "link": "https://www.ithome.com/0/996/607.htm"
+                },
+                {
+                    "title": "消息称奥之心 PEN 复古无反相机设计接近奥林巴斯 E-P7，增加全向翻转屏、取景器",
+                    "link": "https://www.ithome.com/0/996/599.htm"
+                },
+                {
+                    "title": "OpenClaw 2.0 正式发布：史上规模最大的一次更新：933 位贡献者，16000 个拉取请求",
+                    "link": "https://www.appinn.com/openclaw-2-0/"
+                },
+                {
+                    "title": "Steam 12TB 游戏数据泄漏：横跨 10 年，大量未公开内容曝光",
+                    "link": "https://www.appinn.com/steam-12tb-game-data-leak/"
+                },
+                {
+                    "title": "内网穿透，本可以不用那么麻烦 - 很多人都想随时随地地远程控制在家或办公室的电脑，或者出门在外也能访问 NAS 里的文件、公司内部的 OA 系统，甚至小主机、路由器、打印机等设备。但由于没有公网...",
+                    "link": "https://www.appinn.com/wangyunchuan-2-2/"
+                },
+                {
+                    "title": "今天，Chrome 应用商店将彻底移除所有 Manifest V2 扩展，趁现在如何备份？",
+                    "link": "https://www.appinn.com/chrome-remove-manifest-v2-26831/"
+                },
+                {
+                    "title": "小米17 Pro自带语音输入法会屏蔽脏话",
+                    "link": "https://www.appinn.com/xiaomi-17-pro-voice-input-censors-swear-words/"
+                },
+                {
+                    "title": "发现频道：10款大家发现的好评软件[2026年第35期]",
+                    "link": "https://www.appinn.com/faxian-top10-2635/"
                 }
             ]
         }
